@@ -1,0 +1,749 @@
+metabolite,Super pathway,Sub pathway,Kegg pathways,Kegg pathway classes,Chemical family
+(3'-5')-guanylylcytidine,Nucleotide,Dinucleotide,,,Nucleoside and nucleotide analogues
+(N(1) + N(8))-acetylspermidine,Amino Acid,Polyamine Metabolism,,,Carboximidic acids and derivatives
+(R)-3-hydroxybutyrylcarnitine,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,Fatty Acyls
+(S)-3-hydroxybutyrylcarnitine,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,Fatty Acyls
+"1,2,3-benzenetriol sulfate (1)",Xenobiotics,Chemical,,,Phenols
+"1,2,3-benzenetriol sulfate (2)",Xenobiotics,Chemical,,,Organic sulfuric acids and derivatives
+"1,2-dilinoleoyl-GPC (18:2/18:2)",Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+"1,2-dipalmitoyl-GPC (16:0/16:0)",Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+"1,3,7-trimethylurate",Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Imidazopyrimidines
+"1,7-dimethylurate",Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Imidazopyrimidines
+1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*,Lipid,Plasmalogen,,,Glycerophospholipids
+1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*,Lipid,Plasmalogen,,,Glycerophospholipids
+1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*,Lipid,Plasmalogen,,,Glycerophospholipids
+1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*,Lipid,Plasmalogen,,,Glycerophospholipids
+1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1),Lipid,Plasmalogen,,,Glycerophospholipids
+1-carboxyethylhistidine,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+1-carboxyethylisoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Organooxygen compounds
+1-carboxyethylleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+1-carboxyethylphenylalanine,Amino Acid,Phenylalanine Metabolism,,,Carboxylic acids and derivatives
+1-carboxyethyltyrosine,Amino Acid,Tyrosine Metabolism,,,Carboxylic acids and derivatives
+1-carboxyethylvaline,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+1-methyl-4-imidazoleacetate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Azoles
+1-methyl-5-imidazoleacetate,Amino Acid,Histidine Metabolism,,,Azoles
+1-methyl-5-imidazolelactate,Amino Acid,Histidine Metabolism,,,
+1-methyladenine,Nucleotide,"Purine Metabolism, Adenine containing",,,Imidazopyrimidines
+1-methylguanidine,Amino Acid,Guanidino and Acetamido Metabolism,,,Organonitrogen compounds
+1-methylguanine,Nucleotide,"Purine Metabolism, Guanine containing",,,Imidazopyrimidines
+1-methylhistamine,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Organonitrogen compounds
+1-methylhistidine,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+1-methylnicotinamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Nicotinate and nicotinamide metabolism;Bile secretion,Metabolism of cofactors and vitamins;Digestive system,Pyridines and derivatives
+1-methylxanthine,Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Imidazopyrimidines
+1-oleoyl-2-linoleoyl-GPC (18:1/18:2)*,Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-oleoyl-GPC (18:1),Lipid,Lysophospholipid,,,Glycerophospholipids
+1-oleoyl-GPE (18:1),Lipid,Lysophospholipid,,,Glycerophospholipids
+1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-palmitoyl-2-oleoyl-GPC (16:0/18:1),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-palmitoyl-2-oleoyl-GPE (16:0/18:1),Lipid,Phosphatidylethanolamine (PE),,,Glycerophospholipids
+1-palmitoyl-2-oleoyl-GPG (16:0/18:1),Lipid,Phosphatidylglycerol (PG),,,Glycerophospholipids
+1-palmitoyl-2-oleoyl-GPS (16:0/18:1),Lipid,Phosphatidylserine (PS),,,Glycerophospholipids
+1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*,Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-palmitoyl-2-stearoyl-GPC (16:0/18:0),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-ribosyl-imidazoleacetate*,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Imidazole ribonucleosides and ribonucleotides
+1-stearoyl-2-arachidonoyl-GPC (18:0/20:4),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-stearoyl-2-arachidonoyl-GPE (18:0/20:4),Lipid,Phosphatidylethanolamine (PE),Ferroptosis,Cell growth and death,Glycerophospholipids
+1-stearoyl-2-oleoyl-GPC (18:0/18:1),Lipid,Phosphatidylcholine (PC),,,Glycerophospholipids
+1-stearoyl-2-oleoyl-GPE (18:0/18:1),Lipid,Phosphatidylethanolamine (PE),,,Glycerophospholipids
+1-stearoyl-2-oleoyl-GPS (18:0/18:1),Lipid,Phosphatidylserine (PS),,,Glycerophospholipids
+1-stearoyl-GPC (18:0),Lipid,Lysophospholipid,,,Glycerophospholipids
+13-HODE + 9-HODE,Lipid,"Fatty Acid, Monohydroxy",Linoleic acid metabolism;PPAR signaling pathway,Endocrine system;Lipid metabolism,Fatty Acyls
+16a-hydroxy DHEA 3-sulfate,Lipid,Androgenic Steroids,,,Steroids and steroid derivatives
+17alpha-hydroxypregnanolone glucuronide,Lipid,Pregnenolone Steroids,,,Steroids and steroid derivatives
+2'-deoxyadenosine,Nucleotide,"Purine Metabolism, Adenine containing",ABC transporters;Purine metabolism,Nucleotide metabolism;Membrane transport,Purine nucleosides
+2'-deoxyguanosine,Nucleotide,"Purine Metabolism, Guanine containing",ABC transporters;Purine metabolism,Nucleotide metabolism;Membrane transport,Purine nucleosides
+2'-deoxyinosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",ABC transporters;Purine metabolism,Nucleotide metabolism;Membrane transport,Purine nucleosides
+2'-O-methylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",,,Pyrimidine nucleosides
+2'-O-methyluridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",,,Pyrimidine nucleosides
+"2,3-dihydroxy-2-methylbutyrate",Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*",Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,
+"2,3-dihydroxyisovalerate",Xenobiotics,Food Component/Plant,,,Fatty Acyls
+"2,6-dihydroxybenzoic acid",Xenobiotics,Drug - Topical Agents,Benzoate degradation,Xenobiotics biodegradation and metabolism,Benzene and substituted derivatives
+2-acetamidophenol sulfate,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+2-aminoadipate,Amino Acid,Lysine Metabolism,Biosynthesis of amino acids;Lysine degradation;2-Oxocarboxylic acid metabolism;Penicillin and cephalosporin biosynthesis;Lysine biosynthesis,Amino acid metabolism;Biosynthesis of other secondary metabolites;Global and overview maps,Carboxylic acids and derivatives
+2-aminophenol sulfate,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+2-hydroxy-3-methylvalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+2-hydroxy-4-(methylthio)butanoic acid,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Fatty Acyls
+2-hydroxyacetaminophen sulfate*,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Organic sulfuric acids and derivatives
+2-hydroxyadipate,Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+2-hydroxybutyrate/2-hydroxyisobutyrate,Amino Acid,Glutathione Metabolism,Propanoate metabolism,Carbohydrate metabolism,Organooxygen compounds
+2-hydroxydecanoate,Lipid,"Fatty Acid, Monohydroxy",,,Fatty Acyls
+2-hydroxyglutarate,Lipid,"Fatty Acid, Dicarboxylate",C5-Branched dibasic acid metabolism;Butanoate metabolism,Carbohydrate metabolism,Hydroxy acids and derivatives
+2-hydroxyhippurate (salicylurate),Xenobiotics,Benzoate Metabolism,,,Benzene and substituted derivatives
+2-hydroxysebacate,Lipid,"Fatty Acid, Dicarboxylate",,,Hydroxy acids and derivatives
+2-isopropylmalate,Xenobiotics,Food Component/Plant,,,Fatty Acyls
+2-methoxyacetaminophen glucuronide*,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Organooxygen compounds
+2-methoxyacetaminophen sulfate*,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Organic sulfuric acids and derivatives
+2-methoxyhydroquinone sulfate (1),Xenobiotics,Benzoate Metabolism,,,Phenols
+2-methoxyhydroquinone sulfate (2),Xenobiotics,Benzoate Metabolism,,,Phenols
+2-methylbutyrylcarnitine (C5),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+2-methylcitrate/homocitrate,Energy,TCA Cycle,Biosynthesis of amino acids;2-Oxocarboxylic acid metabolism;Lysine biosynthesis;Pyruvate metabolism,Amino acid metabolism;Global and overview maps;Carbohydrate metabolism,Carboxylic acids and derivatives
+2-methylmalonylcarnitine (C4-DC),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),,,Fatty Acyls
+2-O-methylascorbic acid,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,Dihydrofurans
+2-oxoarginine*,Amino Acid,Urea cycle; Arginine and Proline Metabolism,D-Arginine and D-ornithine metabolism;Arginine and proline metabolism,Amino acid metabolism;Metabolism of other amino acids,Keto acids and derivatives
+2-piperidinone,Xenobiotics,Food Component/Plant,,,Piperidines
+"2R,3R-dihydroxybutyrate",Lipid,"Fatty Acid, Dihydroxy",,,Organooxygen compounds
+"2S,3R-dihydroxybutyrate",Lipid,"Fatty Acid, Dihydroxy",,,Organooxygen compounds
+"3,4-dihydroxybutyrate",Lipid,"Fatty Acid, Dihydroxy",,,Hydroxy acids and derivatives
+3-(3-amino-3-carboxypropyl)uridine*,Nucleotide,"Pyrimidine Metabolism, Uracil containing",,,Pyrimidine nucleosides
+3-(4-hydroxyphenyl)lactate (HPLA),Amino Acid,Tyrosine Metabolism,,,Phenylpropanoic acids
+3-(cystein-S-yl)acetaminophen*,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Carboxylic acids and derivatives
+3-(methylthio)acetaminophen sulfate*,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Benzene and substituted derivatives
+3-(N-acetyl-L-cystein-S-yl) acetaminophen,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Carboxylic acids and derivatives
+3-amino-2-piperidone,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+3-aminoisobutyrate,Nucleotide,"Pyrimidine Metabolism, Thymine containing",,,Carboxylic acids and derivatives
+3-formylindole,Xenobiotics,Food Component/Plant,,,Indoles and derivatives
+3-heptenoylglutamine,Lipid,Fatty Acid Metabolism (Acyl Glutamine),,,
+3-hydroxy-2-ethylpropionate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+3-hydroxy-2-methylpyridine,Xenobiotics,Chemical,,,Pyridines and derivatives
+3-hydroxy-2-methylpyridine sulfate,Xenobiotics,Chemical,,,Pyridines and derivatives
+3-hydroxy-3-methylglutarate,Lipid,Mevalonate Metabolism,,,Fatty Acyls
+3-hydroxyadipate,Lipid,"Fatty Acid, Dicarboxylate",,,Hydroxy acids and derivatives
+3-hydroxybutyrate (BHBA),Lipid,Ketone Bodies,cAMP signaling pathway;Butanoate metabolism;Synthesis and degradation of ketone bodies,Lipid metabolism;Signal transduction;Carbohydrate metabolism,Hydroxy acids and derivatives
+3-hydroxybutyroylglycine,Lipid,Fatty Acid Metabolism (Acyl Glycine),,,
+3-hydroxycotinine glucuronide,Xenobiotics,Tobacco Metabolite,,,Organooxygen compounds
+3-hydroxydecanoylcarnitine,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,Fatty Acyls
+3-hydroxydodecanedioate*,Lipid,"Fatty Acid, Dicarboxylate",,,Hydroxy acids and derivatives
+3-hydroxyhexanoate,Lipid,"Fatty Acid, Monohydroxy",,,Hydroxy acids and derivatives
+3-hydroxyhexanoylcarnitine (1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,Fatty Acyls
+3-hydroxyhippurate,Xenobiotics,Benzoate Metabolism,,,Benzene and substituted derivatives
+3-hydroxyisobutyrate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Hydroxy acids and derivatives
+3-hydroxyoctanoylcarnitine (1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)",,,Fatty Acyls
+3-hydroxypyridine sulfate,Xenobiotics,Chemical,,,Pyridines and derivatives
+3-hydroxysebacate,Lipid,"Fatty Acid, Monohydroxy",,,Hydroxy acids and derivatives
+3-hydroxystachydrine*,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+3-indoxyl sulfate,Amino Acid,Tryptophan Metabolism,,,Organic sulfuric acids and derivatives
+3-methoxycatechol sulfate (1),Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+3-methyl catechol sulfate (1),Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+3-methyl-2-oxobutyrate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","Valine, leucine and isoleucine degradation;Biosynthesis of amino acids;2-Oxocarboxylic acid metabolism;Pantothenate and CoA biosynthesis;Glucosinolate biosynthesis;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Metabolism of cofactors and vitamins;Global and overview maps,Keto acids and derivatives
+3-methyladipate,Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+3-methylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",,,Pyrimidine nucleosides
+3-methylglutaconate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+3-methylglutarate/2-methylglutarate,Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+3-methylglutarylcarnitine (2),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+3-methylhistidine,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+3-methylxanthine,Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Imidazopyrimidines
+3-phosphoglycerate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",,,Organooxygen compounds
+3-sulfo-L-alanine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Taurine and hypotaurine metabolism;Cysteine and methionine metabolism;Neuroactive ligand-receptor interaction,Signaling molecules and interaction;Amino acid metabolism;Metabolism of other amino acids,Carboxylic acids and derivatives
+3-ureidopropionate,Nucleotide,"Pyrimidine Metabolism, Uracil containing",Pantothenate and CoA biosynthesis;beta-Alanine metabolism;Pyrimidine metabolism,Nucleotide metabolism;Metabolism of cofactors and vitamins;Metabolism of other amino acids,Organic carbonic acids and derivatives
+4-acetamidobutanoate,Amino Acid,Polyamine Metabolism,Arginine and proline metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+4-acetamidophenol,Xenobiotics,"Drug - Analgesics, Anesthetics",Bile secretion,Digestive system,Phenols
+4-acetamidophenylglucuronide,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Organooxygen compounds
+4-acetaminophen sulfate,Xenobiotics,"Drug - Analgesics, Anesthetics",,,Organic sulfuric acids and derivatives
+4-acetylphenyl sulfate,Xenobiotics,Benzoate Metabolism,,,Organooxygen compounds
+4-allylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,Phenols
+4-ethylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,Phenols
+4-ethylphenyl sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+4-guanidinobutanoate,Amino Acid,Guanidino and Acetamido Metabolism,Arginine and proline metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+4-hydroxybutyrate (GHB),Lipid,"Fatty Acid, Monohydroxy",Carbon fixation pathways in prokaryotes;Butanoate metabolism;Carbon metabolism,Global and overview maps;Energy metabolism;Carbohydrate metabolism,Fatty Acyls
+4-hydroxyglutamate,Amino Acid,Glutamate Metabolism,,,Carboxylic acids and derivatives
+4-hydroxyhippurate,Xenobiotics,Benzoate Metabolism,,,Benzene and substituted derivatives
+4-imidazoleacetate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Azoles
+4-methylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+4-methylguaiacol sulfate,Xenobiotics,Benzoate Metabolism,,,Phenols
+4-vinylcatechol sulfate,Xenobiotics,Benzoate Metabolism,,,Phenols
+4-vinylphenol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+"5,6-dihydrothymine",Nucleotide,"Pyrimidine Metabolism, Thymine containing",,,Diazines
+"5,6-dihydrouridine",Nucleotide,"Pyrimidine Metabolism, Uracil containing",,,Pyrimidine nucleosides
+5-(galactosylhydroxy)-L-lysine,Amino Acid,Lysine Metabolism,,,Fatty Acyls
+5-acetylamino-6-amino-3-methyluracil,Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Organonitrogen compounds
+5-acetylamino-6-formylamino-3-methyluracil,Xenobiotics,Xanthine Metabolism,Caffeine metabolism,Biosynthesis of other secondary metabolites,Diazines
+5-aminovalerate,Amino Acid,Lysine Metabolism,Lysine degradation;Arginine and proline metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+5-dodecenoylcarnitine (C12:1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+5-hydroxy-2-methylpyridine sulfate,Xenobiotics,Chemical,,,Pyridines and derivatives
+5-hydroxylysine,Amino Acid,Lysine Metabolism,Lysine degradation,Amino acid metabolism,Carboxylic acids and derivatives
+5-methylthioadenosine (MTA),Amino Acid,Polyamine Metabolism,Cysteine and methionine metabolism;Biosynthesis of plant secondary metabolites;Zeatin biosynthesis,Amino acid metabolism;Chemical structure transformation maps;Metabolism of terpenoids and polyketides,5'-deoxyribonucleosides
+5-oxoproline,Amino Acid,Glutathione Metabolism,D-Glutamine and D-glutamate metabolism;Glutathione metabolism,Metabolism of other amino acids,Carboxylic acids and derivatives
+"5alpha-pregnan-3beta,20alpha-diol disulfate",Lipid,Progestin Steroids,,,Steroids and steroid derivatives
+5alpha-pregnan-diol disulfate,Lipid,Progestin Steroids,,,Steroids and steroid derivatives
+6-hydroxyindole sulfate,Xenobiotics,Chemical,,,Organic sulfuric acids and derivatives
+6-oxopiperidine-2-carboxylate,Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+6-phosphogluconate,Carbohydrate,Pentose Phosphate Pathway,Carbon metabolism;Pentose phosphate pathway,Global and overview maps;Carbohydrate metabolism,Organooxygen compounds
+7-methylguanine,Nucleotide,"Purine Metabolism, Guanine containing",,,Imidazopyrimidines
+acesulfame,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+acetylcarnitine (C2),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Short Chain)",,,Fatty Acyls
+aconitate [cis or trans],Energy,TCA Cycle,"Biosynthesis of alkaloids derived from histidine and purine;Carbon fixation pathways in prokaryotes;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of terpenoids and steroids;C5-Branched dibasic acid metabolism;Biosynthesis of plant secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of plant hormones;Biosynthesis of alkaloids derived from terpenoid and polyketide;Glyoxylate and dicarboxylate metabolism;Biosynthesis of phenylpropanoids;Biosynthesis of alkaloids derived from shikimate pathway",Chemical structure transformation maps;Global and overview maps;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+adenine,Nucleotide,"Purine Metabolism, Adenine containing",Purine metabolism;Zeatin biosynthesis,Nucleotide metabolism;Metabolism of terpenoids and polyketides,Imidazopyrimidines
+adenosine,Nucleotide,"Purine Metabolism, Adenine containing",Regulation of lipolysis in adipocytes;Alcoholism;Renin secretion;Sphingolipid signaling pathway;cGMP-PKG signaling pathway;cAMP signaling pathway;ABC transporters;Parkinson disease;Vascular smooth muscle contraction;Purine metabolism;Morphine addiction;Neuroactive ligand-receptor interaction,Signaling molecules and interaction;Circulatory system;Nucleotide metabolism;Endocrine system;Substance dependence;Membrane transport;Neurodegenerative disease;Signal transduction,Purine nucleosides
+2'-AMP,Nucleotide,"Purine Metabolism, Adenine containing",,,Organooxygen compounds
+"adenosine 3',5'-cyclic monophosphate (cAMP)",Nucleotide,"Purine Metabolism, Adenine containing","Amoebiasis;Salivary secretion;Oocyte meiosis;Cortisol synthesis and secretion;Oxytocin signaling pathway;Parathyroid hormone synthesis, secretion and action;Regulation of lipolysis in adipocytes;Olfactory transduction;Leukocyte transendothelial migration;Circadian entrainment;Circadian rhythm;Cocaine addiction;Rap1 signaling pathway;Retrograde endocannabinoid signaling;Pancreatic secretion;Biofilm formation - Escherichia coli;Cholinergic synapse;Alcoholism;Hedgehog signaling pathway;Biofilm formation - Pseudomonas aeruginosa;Growth hormone synthesis, secretion and action;Renin secretion;Ovarian steroidogenesis;Vasopressin-regulated water reabsorption;Calcium signaling pathway;Meiosis - yeast;Gap junction;Prion diseases;Cushing syndrome;Thyroid hormone synthesis;Phospholipase D signaling pathway;Insulin secretion;Vibrio cholerae infection;Amphetamine addiction;cGMP-PKG signaling pathway;cAMP signaling pathway;Relaxin signaling pathway;Insulin signaling pathway;Melanogenesis;Pathways in cancer;Human T-cell leukemia virus 1 infection;Human papillomavirus infection;Cell cycle - yeast;Platelet activation;Taste transduction;GnRH signaling pathway;MAPK signaling pathway;Inflammatory mediator regulation of TRP channels;Apelin signaling pathway;Dopaminergic synapse;Long-term potentiation;Parkinson disease;Aldosterone synthesis and secretion;Vascular smooth muscle contraction;Glutamatergic synapse;Purine metabolism;GABAergic synapse;Ras signaling pathway;Chemokine signaling pathway;Endocrine resistance;Gastric acid secretion;Longevity regulating pathway - multiple species;Biofilm formation - Vibrio cholerae;Morphine addiction;Progesterone-mediated oocyte maturation;Chagas disease (American trypanosomiasis);Bile secretion;Pertussis;Aldosterone-regulated sodium reabsorption;Thyroid hormone signaling pathway;Axon regeneration;Thermogenesis;Estrogen signaling pathway;Dilated cardiomyopathy (DCM);Endocrine and other factor-regulated calcium reabsorption;Serotonergic synapse;Longevity regulating pathway;Adrenergic signaling in cardiomyocytes;Glucagon signaling pathway",Circulatory system;Cellular community - prokaryotes;Excretory system;Nucleotide metabolism;Endocrine system;Cardiovascular disease;Infectious disease: bacterial;Development and regeneration;Environmental adaptation;Substance dependence;Immune system;Drug resistance: antineoplastic;Sensory system;Nervous system;Cellular community - eukaryotes;Cell growth and death;Neurodegenerative disease;Digestive system;Signal transduction;Cancer: overview;Endocrine and metabolic disease;Aging;Infectious disease: viral;Infectious disease: parasitic,Purine nucleotides
+3'-AMP,Nucleotide,"Purine Metabolism, Adenine containing",Purine metabolism,Nucleotide metabolism,Ribonucleoside 3'-phosphates
+AMP,Nucleotide,"Purine Metabolism, Adenine containing","Cortisol synthesis and secretion;Biosynthesis of alkaloids derived from histidine and purine;Parathyroid hormone synthesis, secretion and action;Regulation of lipolysis in adipocytes;Olfactory transduction;Renin secretion;Cushing syndrome;PI3K-Akt signaling pathway;Biosynthesis of plant secondary metabolites;cGMP-PKG signaling pathway;cAMP signaling pathway;Taste transduction;Parkinson disease;Aldosterone synthesis and secretion;FoxO signaling pathway;Biosynthesis of plant hormones;Purine metabolism;Zeatin biosynthesis;Morphine addiction;Antifolate resistance;mTOR signaling pathway;AMPK signaling pathway;Longevity regulating pathway",Nucleotide metabolism;Endocrine system;Chemical structure transformation maps;Substance dependence;Metabolism of terpenoids and polyketides;Drug resistance: antineoplastic;Sensory system;Neurodegenerative disease;Signal transduction;Endocrine and metabolic disease;Aging,Purine nucleotides
+adipate,Lipid,"Fatty Acid, Dicarboxylate",Caprolactam degradation;Degradation of aromatic compounds,Global and overview maps;Xenobiotics biodegradation and metabolism,Fatty Acyls
+adipoylcarnitine (C6-DC),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)",,,Fatty Acyls
+agmatine,Amino Acid,Polyamine Metabolism,Arginine and proline metabolism,Amino acid metabolism,Organonitrogen compounds
+alanine,Amino Acid,Alanine and Aspartate Metabolism,"D-Alanine metabolism;Mineral absorption;Alanine, aspartate and glutamate metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of various secondary metabolites - part 2;Taurine and hypotaurine metabolism;Sulfur relay system;Cysteine and methionine metabolism;Biosynthesis of plant secondary metabolites;Carbon fixation in photosynthetic organisms;Vancomycin resistance;Central carbon metabolism in cancer;ABC transporters;Protein digestion and absorption;Selenocompound metabolism;Carbon metabolism","Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Folding, sorting and degradation;Global and overview maps;Digestive system;Cancer: overview;Drug resistance: antimicrobial;Energy metabolism",Carboxylic acids and derivatives
+alanylleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+allantoin,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Purine metabolism,Nucleotide metabolism,Azoles
+allo-threonine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Glycine, serine and threonine metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+alpha-hydroxyisocaproate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+alpha-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+alpha-ketoglutaramate*,Amino Acid,Glutamate Metabolism,"Alanine, aspartate and glutamate metabolism",Amino acid metabolism,Keto acids and derivatives
+alpha-ketoglutarate,Energy,TCA Cycle,"Alanine, aspartate and glutamate metabolism;Biosynthesis of alkaloids derived from histidine and purine;Biosynthesis of amino acids;Carbon fixation pathways in prokaryotes;Proximal tubule bicarbonate reclamation;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;HIF-1 signaling pathway;Lysine degradation;Taurine and hypotaurine metabolism;Biosynthesis of various secondary metabolites - part 3;Histidine metabolism;Biosynthesis of terpenoids and steroids;C5-Branched dibasic acid metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;Arginine biosynthesis;2-Oxocarboxylic acid metabolism;Pentose and glucuronate interconversions;Lysine biosynthesis;Biosynthesis of plant hormones;Butanoate metabolism;Biosynthesis of alkaloids derived from terpenoid and polyketide;GABAergic synapse;D-Glutamine and D-glutamate metabolism;Glyoxylate and dicarboxylate metabolism;Bile secretion;Biosynthesis of phenylpropanoids;Carbon metabolism;Furfural degradation;Biosynthesis of alkaloids derived from shikimate pathway;Ascorbate and aldarate metabolism;Glucagon signaling pathway",Amino acid metabolism;Biosynthesis of other secondary metabolites;Excretory system;Endocrine system;Chemical structure transformation maps;Metabolism of other amino acids;Nervous system;Global and overview maps;Xenobiotics biodegradation and metabolism;Digestive system;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Keto acids and derivatives
+alpha-tocopherol,Cofactors and Vitamins,Tocopherol Metabolism,Vitamin digestion and absorption,Digestive system,Prenol lipids
+amoxicillin,Xenobiotics,Drug - Antibiotic,,,Lactams
+andro steroid monosulfate C19H28O6S (1)*,Lipid,Androgenic Steroids,,,Steroids and steroid derivatives
+"androstenediol (3beta,17beta) disulfate (2)",Lipid,Androgenic Steroids,,,Steroids and steroid derivatives
+androsterone glucuronide,Lipid,Androgenic Steroids,Steroid hormone biosynthesis,Lipid metabolism,Steroids and steroid derivatives
+androsterone sulfate,Lipid,Androgenic Steroids,,,Steroids and steroid derivatives
+anserine,Amino Acid,Histidine Metabolism,Histidine metabolism;beta-Alanine metabolism,Amino acid metabolism;Metabolism of other amino acids,Peptidomimetics
+arabinose,Carbohydrate,Pentose Metabolism,,,Organooxygen compounds
+arabitol/xylitol,Carbohydrate,Pentose Metabolism,Riboflavin metabolism;ABC transporters;Pentose and glucuronate interconversions,Metabolism of cofactors and vitamins;Membrane transport;Carbohydrate metabolism,Organooxygen compounds
+arabonate/xylonate,Carbohydrate,Pentose Metabolism,Pentose and glucuronate interconversions,Carbohydrate metabolism,Organooxygen compounds
+argininate*,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Organooxygen compounds
+arginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,"Amoebiasis;Amyotrophic lateral sclerosis (ALS);Monobactam biosynthesis;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of various secondary metabolites - part 3;Biosynthesis of plant secondary metabolites;D-Arginine and D-ornithine metabolism;Central carbon metabolism in cancer;Arginine biosynthesis;ABC transporters;Clavulanic acid biosynthesis;Arginine and proline metabolism;Protein digestion and absorption;Chagas disease (American trypanosomiasis);mTOR signaling pathway",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Neurodegenerative disease;Digestive system;Signal transduction;Cancer: overview;Infectious disease: parasitic,Carboxylic acids and derivatives
+argininosuccinate,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+ascorbic acid 2-sulfate,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,Dihydrofurans
+ascorbic acid 3-sulfate*,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,Dihydrofurans
+asparagine,Amino Acid,Alanine and Aspartate Metabolism,"Mineral absorption;Alanine, aspartate and glutamate metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;Protein digestion and absorption",Amino acid metabolism;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+aspartate,Amino Acid,Alanine and Aspartate Metabolism,"Bacterial chemotaxis;Monobactam biosynthesis;Alanine, aspartate and glutamate metabolism;Glycine, serine and threonine metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of various secondary metabolites - part 3;Histidine metabolism;Cyanoamino acid metabolism;Cysteine and methionine metabolism;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;Carbon fixation in photosynthetic organisms;Two-component system;Central carbon metabolism in cancer;Arginine biosynthesis;2-Oxocarboxylic acid metabolism;ABC transporters;Lysine biosynthesis;Pantothenate and CoA biosynthesis;beta-Alanine metabolism;Biosynthesis of plant hormones;Protein digestion and absorption;Neuroactive ligand-receptor interaction;Carbon metabolism",Signaling molecules and interaction;Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Cell motility;Digestive system;Signal transduction;Cancer: overview;Energy metabolism,Carboxylic acids and derivatives
+azelate (C9-DC),Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+behenoyl sphingomyelin (d18:1/22:0)*,Lipid,Sphingomyelins,,,Sphingolipids
+beta-alanine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",Pantothenate and CoA biosynthesis;beta-Alanine metabolism;Protein digestion and absorption;Propanoate metabolism;Neuroactive ligand-receptor interaction;Pyrimidine metabolism,Signaling molecules and interaction;Nucleotide metabolism;Metabolism of cofactors and vitamins;Metabolism of other amino acids;Digestive system;Carbohydrate metabolism,Carboxylic acids and derivatives
+beta-citrylglutamate,Amino Acid,Glutamate Metabolism,"Alanine, aspartate and glutamate metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+beta-guanidinopropanoate,Xenobiotics,Food Component/Plant,,,Organonitrogen compounds
+beta-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","Valine, leucine and isoleucine degradation",Amino acid metabolism,Fatty Acyls
+beta-hydroxyisovaleroylcarnitine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,
+betaine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Glycine, serine and threonine metabolism;ABC transporters",Amino acid metabolism;Membrane transport,Carboxylic acids and derivatives
+betaine aldehyde,Amino Acid,"Glycine, Serine and Threonine Metabolism","Glycine, serine and threonine metabolism",Amino acid metabolism,Organonitrogen compounds
+butyrate/isobutyrate (4:0),Lipid,Short Chain Fatty Acid,Carbohydrate digestion and absorption;Protein digestion and absorption;Butanoate metabolism,Digestive system;Carbohydrate metabolism,Fatty Acyls
+butyrylcarnitine (C4),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),,,Fatty Acyls
+C-glycosyltryptophan,Amino Acid,Tryptophan Metabolism,,,Indoles and derivatives
+cadaverine,Amino Acid,Lysine Metabolism,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Lysine degradation;Biosynthesis of plant secondary metabolites;Protein digestion and absorption;Glutathione metabolism;Tropane, piperidine and pyridine alkaloid biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps;Metabolism of other amino acids;Digestive system,Organonitrogen compounds
+carboxyethyl-GABA,Amino Acid,Glutamate Metabolism,,,Carboxylic acids and derivatives
+carnitine,Lipid,Carnitine Metabolism,,,Organonitrogen compounds
+catechol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+chiro-inositol,Lipid,Inositol Metabolism,,,
+cholate,Lipid,Primary Bile Acid Metabolism,Primary bile acid biosynthesis;Secondary bile acid biosynthesis;Bile secretion,Lipid metabolism;Digestive system,Steroids and steroid derivatives
+cholesterol sulfate,Lipid,Sterol,Steroid hormone biosynthesis,Lipid metabolism,Steroids and steroid derivatives
+choline,Lipid,Phospholipid Metabolism,"Glycine, serine and threonine metabolism;Cholinergic synapse;Choline metabolism in cancer;Glycerophospholipid metabolism;ABC transporters;Bile secretion",Amino acid metabolism;Membrane transport;Nervous system;Lipid metabolism;Digestive system;Cancer: overview,Organonitrogen compounds
+phosphocholine,Lipid,Phospholipid Metabolism,Choline metabolism in cancer;Glycerophospholipid metabolism,Lipid metabolism;Cancer: overview,Organonitrogen compounds
+cinnamoylglycine,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+"cis-3,4-methyleneheptanoylcarnitine",Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",,,
+"cis-3,4-methyleneheptanoylglycine",Lipid,Fatty Acid Metabolism (Acyl Glycine),,,Carboxylic acids and derivatives
+cis-4-decenoylcarnitine (C10:1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+cis-urocanate,Amino Acid,Histidine Metabolism,,,Azoles
+citalopram N-oxide*,Xenobiotics,Drug - Psychoactive,Drug metabolism - cytochrome P450,Xenobiotics biodegradation and metabolism,Benzene and substituted derivatives
+citalopram propionate*,Xenobiotics,Drug - Psychoactive,Drug metabolism - cytochrome P450,Xenobiotics biodegradation and metabolism,Isocoumarans
+citalopram/escitalopram,Xenobiotics,Drug - Psychoactive,,,Benzene and substituted derivatives
+citraconate/glutaconate,Energy,TCA Cycle,"C5-Branched dibasic acid metabolism;2-Oxocarboxylic acid metabolism;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Global and overview maps;Carbohydrate metabolism,Fatty Acyls
+citrate,Energy,TCA Cycle,"Alanine, aspartate and glutamate metabolism;Biosynthesis of alkaloids derived from histidine and purine;Biosynthesis of amino acids;Carbon fixation pathways in prokaryotes;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of various secondary metabolites - part 3;Biosynthesis of terpenoids and steroids;Biosynthesis of plant secondary metabolites;Two-component system;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;Taste transduction;Biosynthesis of plant hormones;Biosynthesis of alkaloids derived from terpenoid and polyketide;Glyoxylate and dicarboxylate metabolism;Biosynthesis of phenylpropanoids;Biosynthesis of siderophore group nonribosomal peptides;Carbon metabolism;Biosynthesis of alkaloids derived from shikimate pathway;Glucagon signaling pathway",Amino acid metabolism;Biosynthesis of other secondary metabolites;Endocrine system;Chemical structure transformation maps;Metabolism of terpenoids and polyketides;Sensory system;Global and overview maps;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+citrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,Biosynthesis of amino acids;Biosynthesis of various secondary metabolites - part 3;Arginine biosynthesis,Amino acid metabolism;Biosynthesis of other secondary metabolites;Global and overview maps,Carboxylic acids and derivatives
+cortolone glucuronide (1),Lipid,Corticosteroids,,,Steroids and steroid derivatives
+cotinine,Xenobiotics,Tobacco Metabolite,,,Pyridines and derivatives
+cotinine N-oxide,Xenobiotics,Tobacco Metabolite,,,Pyridines and derivatives
+creatine,Amino Acid,Creatine Metabolism,"Glycine, serine and threonine metabolism;Arginine and proline metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+creatinine,Amino Acid,Creatine Metabolism,Arginine and proline metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+cyclic adenosine diphosphate-ribose,Nucleotide,"Purine Metabolism, Adenine containing",Salivary secretion;Oxytocin signaling pathway;Pancreatic secretion;Calcium signaling pathway,Endocrine system;Digestive system;Signal transduction,Organooxygen compounds
+cystathionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism","Glycine, serine and threonine metabolism;Biosynthesis of amino acids;Cysteine and methionine metabolism",Amino acid metabolism;Global and overview maps,Carboxylic acids and derivatives
+cysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism","Glycine, serine and threonine metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Sulfur metabolism;Taurine and hypotaurine metabolism;Sulfur relay system;Cyanoamino acid metabolism;Cysteine and methionine metabolism;Biosynthesis of plant secondary metabolites;Carbapenem biosynthesis;Central carbon metabolism in cancer;Thiamine metabolism;Ferroptosis;Penicillin and cephalosporin biosynthesis;Pantothenate and CoA biosynthesis;Protein digestion and absorption;Glutathione metabolism;Carbon metabolism","Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Folding, sorting and degradation;Global and overview maps;Cell growth and death;Digestive system;Cancer: overview;Energy metabolism",Carboxylic acids and derivatives
+cysteine-glutathione disulfide,Amino Acid,Glutathione Metabolism,,,Carboxylic acids and derivatives
+cysteinylglycine,Amino Acid,Glutathione Metabolism,Glutathione metabolism,Metabolism of other amino acids,Carboxylic acids and derivatives
+cysteinylglycine disulfide*,Amino Acid,Glutathione Metabolism,,,Carboxylic acids and derivatives
+cystine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Cysteine and methionine metabolism;Ferroptosis;ABC transporters;Protein digestion and absorption,Amino acid metabolism;Membrane transport;Cell growth and death;Digestive system,Carboxylic acids and derivatives
+cytidine 2' or 3'-monophosphate (2' or 3'-CMP),Nucleotide,"Pyrimidine Metabolism, Cytidine containing",Pyrimidine metabolism,Nucleotide metabolism,Organooxygen compounds
+CDP-choline,Lipid,Phospholipid Metabolism,Choline metabolism in cancer;Glycerophospholipid metabolism,Lipid metabolism;Cancer: overview,Pyrimidine nucleotides
+cytosine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",Pyrimidine metabolism,Nucleotide metabolism,Diazines
+decanoylcarnitine (C10),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",,,Fatty Acyls
+dehydroepiandrosterone sulfate (DHEA-S),Lipid,Androgenic Steroids,Steroid hormone biosynthesis;Bile secretion,Lipid metabolism;Digestive system,Steroids and steroid derivatives
+deoxycarnitine,Lipid,Carnitine Metabolism,,,Fatty Acyls
+desmethylcitalopram*,Xenobiotics,Drug - Psychoactive,Drug metabolism - cytochrome P450,Xenobiotics biodegradation and metabolism,Benzene and substituted derivatives
+dexpanthenol,Xenobiotics,Chemical,,,Fatty Acyls
+dextromethorphan,Xenobiotics,Drug - Respiratory,,,Morphinans
+diacetylspermidine*,Amino Acid,Polyamine Metabolism,,,Carboximidic acids and derivatives
+diethanolamine,Xenobiotics,Chemical,Glycerophospholipid metabolism,Lipid metabolism,Organonitrogen compounds
+diglycerol,Xenobiotics,Chemical,,,Glycerolipids
+dihydrocaffeate sulfate (2),Xenobiotics,Food Component/Plant,,,Phenylpropanoic acids
+dihydroorotate,Nucleotide,"Pyrimidine Metabolism, Orotate containing",,,Carboxylic acids and derivatives
+dihydroxyacetone phosphate (DHAP),Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Galactose metabolism;Inositol phosphate metabolism;Glycerolipid metabolism;Biosynthesis of amino acids;Glycolysis / Gluconeogenesis;Nicotinate and nicotinamide metabolism;Carbon fixation in photosynthetic organisms;Glycerophospholipid metabolism;Pentose and glucuronate interconversions;Methane metabolism;Propanoate metabolism;Fructose and mannose metabolism;Carbon metabolism,Metabolism of cofactors and vitamins;Global and overview maps;Lipid metabolism;Energy metabolism;Carbohydrate metabolism,Organooxygen compounds
+dimethylarginine (ADMA + SDMA),Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+dimethylglycine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Glycine, serine and threonine metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+dimethylmalonic acid,Lipid,"Fatty Acid, Dicarboxylate",,,Carboxylic acids and derivatives
+diphenhydramine,Xenobiotics,Drug - Respiratory,,,Benzene and substituted derivatives
+dopamine 3-O-sulfate,Amino Acid,Tyrosine Metabolism,,,Organic sulfuric acids and derivatives
+dopamine 4-sulfate,Amino Acid,Tyrosine Metabolism,,,Phenols
+doxylamine,Xenobiotics,Drug - Respiratory,,,Benzene and substituted derivatives
+EDTA,Xenobiotics,Chemical,,,Carboxylic acids and derivatives
+eicosanoylsphingosine (d20:1)*,Lipid,Sphingosines,,,Sphingolipids
+erythritol,Xenobiotics,Food Component/Plant,ABC transporters,Membrane transport,Organooxygen compounds
+erythronate*,Carbohydrate,Aminosugar Metabolism,,,Organooxygen compounds
+estriol 16-glucuronide,Lipid,Estrogenic Steroids,Steroid hormone biosynthesis,Lipid metabolism,Steroids and steroid derivatives
+estriol 3-sulfate,Lipid,Estrogenic Steroids,,,Steroids and steroid derivatives
+estriol-3-glucuronide,Lipid,Estrogenic Steroids,,,Steroids and steroid derivatives
+ethyl alpha-glucopyranoside,Xenobiotics,Food Component/Plant,,,Organooxygen compounds
+ethyl beta-glucopyranoside,Xenobiotics,Food Component/Plant,,,Organooxygen compounds
+ethylmalonate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+etiocholanolone glucuronide,Lipid,Androgenic Steroids,,,Steroids and steroid derivatives
+eugenol sulfate,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+ferulic acid 4-sulfate,Xenobiotics,Food Component/Plant,,,Cinnamic acids and derivatives
+ferulylglycine (1),Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+ferulylglycine (2),Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+formiminoglutamate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+fructose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",,,Organooxygen compounds
+Isobar: hexose diphosphates,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Starch and sucrose metabolism,Carbohydrate metabolism,Organooxygen compounds
+fructosyllysine,Amino Acid,Lysine Metabolism,Phosphotransferase system (PTS),Membrane transport,Carboxylic acids and derivatives
+fumarate,Energy,TCA Cycle,"Alanine, aspartate and glutamate metabolism;Biosynthesis of alkaloids derived from histidine and purine;Oxidative phosphorylation;Carbon fixation pathways in prokaryotes;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of terpenoids and steroids;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;Styrene degradation;Two-component system;Central carbon metabolism in cancer;Arginine biosynthesis;Pathways in cancer;Degradation of aromatic compounds;Tyrosine metabolism;Biosynthesis of plant hormones;Butanoate metabolism;Biosynthesis of alkaloids derived from terpenoid and polyketide;Biosynthesis of phenylpropanoids;Phenylalanine metabolism;Pyruvate metabolism;Carbon metabolism;Biosynthesis of alkaloids derived from shikimate pathway;Renal cell carcinoma;Glucagon signaling pathway",Amino acid metabolism;Endocrine system;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Cancer: specific types;Global and overview maps;Xenobiotics biodegradation and metabolism;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+furaneol sulfate,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+galactonate,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",Galactose metabolism;Pentose and glucuronate interconversions;Ascorbate and aldarate metabolism,Carbohydrate metabolism,Hydroxy acids and derivatives
+galactosylglycerol,Lipid,Galactosyl Glycerolipids,Galactose metabolism;Glycerolipid metabolism,Lipid metabolism;Carbohydrate metabolism,Glycerolipids
+gamma-CEHC glucuronide*,Cofactors and Vitamins,Tocopherol Metabolism,,,Organooxygen compounds
+gamma-glutamyl-epsilon-lysine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylglutamate,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylglutamine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylhistidine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylisoleucine*,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylleucine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylphenylalanine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gamma-glutamylthreonine,Peptide,Gamma-glutamyl Amino Acid,,,Carboxylic acids and derivatives
+gluconate,Xenobiotics,Food Component/Plant,Carbon metabolism;Pentose phosphate pathway,Global and overview maps;Carbohydrate metabolism,Hydroxy acids and derivatives
+glucose,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism","Galactose metabolism;Mineral absorption;Amino sugar and nucleotide sugar metabolism;Prolactin signaling pathway;HIF-1 signaling pathway;Glycolysis / Gluconeogenesis;Insulin resistance;Meiosis - yeast;Non-alcoholic fatty liver disease (NAFLD);Type II diabetes mellitus;Phosphotransferase system (PTS);Insulin secretion;Two-component system;Central carbon metabolism in cancer;Insulin signaling pathway;ABC transporters;Taste transduction;Carbohydrate digestion and absorption;FoxO signaling pathway;AGE-RAGE signaling pathway in diabetic complications;Biofilm formation - Vibrio cholerae;Neomycin, kanamycin and gentamicin biosynthesis;Bile secretion;Streptomycin biosynthesis;Starch and sucrose metabolism;Indole alkaloid biosynthesis;AMPK signaling pathway;Pentose phosphate pathway;Glucagon signaling pathway",Cellular community - prokaryotes;Biosynthesis of other secondary metabolites;Endocrine system;Membrane transport;Sensory system;Cell growth and death;Digestive system;Signal transduction;Cancer: overview;Endocrine and metabolic disease;Carbohydrate metabolism,Organooxygen compounds
+glucose 6-phosphate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism","Inositol phosphate metabolism;Prolactin signaling pathway;Biosynthesis of various secondary metabolites - part 2;Insulin resistance;Phosphotransferase system (PTS);Biosynthesis of terpenoids and steroids;Thyroid hormone synthesis;Insulin secretion;Two-component system;Central carbon metabolism in cancer;Carbohydrate digestion and absorption;Biofilm formation - Vibrio cholerae;Neomycin, kanamycin and gentamicin biosynthesis;Streptomycin biosynthesis;Starch and sucrose metabolism",Cellular community - prokaryotes;Biosynthesis of other secondary metabolites;Endocrine system;Chemical structure transformation maps;Membrane transport;Digestive system;Signal transduction;Cancer: overview;Endocrine and metabolic disease;Carbohydrate metabolism,Organooxygen compounds
+glucuronate,Carbohydrate,Aminosugar Metabolism,Amino sugar and nucleotide sugar metabolism;Inositol phosphate metabolism;Pentose and glucuronate interconversions;Ascorbate and aldarate metabolism,Carbohydrate metabolism,Organooxygen compounds
+glucuronide of C10H14O2 (4)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (1)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (11)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (12)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (5)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (6)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (7)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C10H18O2 (8)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C12H20O3 (4)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glucuronide of C12H22O4 (1)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutamate,Amino Acid,Glutamate Metabolism,"Amyotrophic lateral sclerosis (ALS);Porphyrin and chlorophyll metabolism;Alanine, aspartate and glutamate metabolism;Circadian entrainment;Cocaine addiction;Retrograde endocannabinoid signaling;Spinocerebellar ataxia;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Alcoholism;Proximal tubule bicarbonate reclamation;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Nitrogen metabolism;Taurine and hypotaurine metabolism;Gap junction;Biosynthesis of various secondary metabolites - part 3;Histidine metabolism;Long-term depression;C5-Branched dibasic acid metabolism;Biosynthesis of plant secondary metabolites;Carbapenem biosynthesis;Phospholipase D signaling pathway;Amphetamine addiction;Two-component system;Central carbon metabolism in cancer;Arginine biosynthesis;2-Oxocarboxylic acid metabolism;Ferroptosis;ABC transporters;Nicotine addiction;Taste transduction;Long-term potentiation;Synaptic vesicle cycle;FoxO signaling pathway;Arginine and proline metabolism;Protein digestion and absorption;Butanoate metabolism;Glutamatergic synapse;GABAergic synapse;D-Glutamine and D-glutamate metabolism;Glutathione metabolism;Neomycin, kanamycin and gentamicin biosynthesis;Glyoxylate and dicarboxylate metabolism;Huntington disease;Neuroactive ligand-receptor interaction;Carbon metabolism",Signaling molecules and interaction;Amino acid metabolism;Biosynthesis of other secondary metabolites;Excretory system;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Environmental adaptation;Substance dependence;Membrane transport;Sensory system;Nervous system;Global and overview maps;Cellular community - eukaryotes;Cell growth and death;Neurodegenerative disease;Digestive system;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+"glutamate, gamma-methyl ester",Amino Acid,Glutamate Metabolism,,,Carboxylic acids and derivatives
+glutamine,Amino Acid,Glutamate Metabolism,"Mineral absorption;Alanine, aspartate and glutamate metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Proximal tubule bicarbonate reclamation;Nitrogen metabolism;Biosynthesis of plant secondary metabolites;Two-component system;Central carbon metabolism in cancer;Arginine biosynthesis;ABC transporters;Protein digestion and absorption;Glutamatergic synapse;Purine metabolism;GABAergic synapse;D-Glutamine and D-glutamate metabolism;Glyoxylate and dicarboxylate metabolism;Pyrimidine metabolism",Amino acid metabolism;Excretory system;Translation;Nucleotide metabolism;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Nervous system;Global and overview maps;Digestive system;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+glutamine conjugate of C6H10O2 (1)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutamine conjugate of C6H10O2 (2)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutamine conjugate of C7H12O2*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutamine conjugate of C8H12O2 (2)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutamine_degradant*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glutaminylleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+glutarate (C5-DC),Lipid,"Fatty Acid, Dicarboxylate",Lysine degradation;Fatty acid degradation,Amino acid metabolism;Lipid metabolism,Carboxylic acids and derivatives
+glutarylcarnitine (C5-DC),Amino Acid,Lysine Metabolism,,,Fatty Acyls
+"glutathione, oxidized (GSSG)",Amino Acid,Glutathione Metabolism,Thyroid hormone synthesis;Ferroptosis;Glutathione metabolism,Endocrine system;Metabolism of other amino acids;Cell growth and death,Carboxylic acids and derivatives
+"glutathione, reduced (GSH)",Amino Acid,Glutathione Metabolism,Cysteine and methionine metabolism;Thyroid hormone synthesis;Ferroptosis;ABC transporters;Glutathione metabolism;Bile secretion,Amino acid metabolism;Endocrine system;Metabolism of other amino acids;Membrane transport;Cell growth and death;Digestive system,Carboxylic acids and derivatives
+glycerate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism","Glycine, serine and threonine metabolism;Glycerolipid metabolism;Methane metabolism;Glyoxylate and dicarboxylate metabolism;Carbon metabolism;Pentose phosphate pathway",Amino acid metabolism;Global and overview maps;Lipid metabolism;Energy metabolism;Carbohydrate metabolism,Organooxygen compounds
+glycerol,Lipid,Glycerolipid Metabolism,Galactose metabolism;Regulation of lipolysis in adipocytes;Retrograde endocannabinoid signaling;Glycerolipid metabolism;ABC transporters;Pentose and glucuronate interconversions;Thermogenesis,Endocrine system;Environmental adaptation;Membrane transport;Nervous system;Lipid metabolism;Carbohydrate metabolism,Organooxygen compounds
+glycerol 3-phosphate,Lipid,Glycerolipid Metabolism,,,Glycerophospholipids
+glycerophosphoethanolamine,Lipid,Phospholipid Metabolism,,,Glycerophospholipids
+glycerophosphoglycerol,Lipid,Glycerolipid Metabolism,,,Organic phosphoric acids and derivatives
+glycerophosphorylcholine (GPC),Lipid,Phospholipid Metabolism,,,Glycerophospholipids
+glycerophosphoserine*,Lipid,Phospholipid Metabolism,,,Glycerophospholipids
+glycine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Porphyrin and chlorophyll metabolism;Mineral absorption;Glycine, serine and threonine metabolism;Primary bile acid biosynthesis;Biofilm formation - Escherichia coli;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Lysine degradation;Biosynthesis of various secondary metabolites - part 3;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Vancomycin resistance;Central carbon metabolism in cancer;Thiamine metabolism;ABC transporters;Methane metabolism;Synaptic vesicle cycle;Phosphonate and phosphinate metabolism;Protein digestion and absorption;Purine metabolism;Glutathione metabolism;Glyoxylate and dicarboxylate metabolism;Neuroactive ligand-receptor interaction;Carbon metabolism",Signaling molecules and interaction;Amino acid metabolism;Cellular community - prokaryotes;Biosynthesis of other secondary metabolites;Translation;Nucleotide metabolism;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Nervous system;Global and overview maps;Lipid metabolism;Digestive system;Cancer: overview;Drug resistance: antimicrobial;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+glycine conjugate of C10H14O2 (1)*,Partially Characterized Molecules,Partially Characterized Molecules,,,
+glycosyl-N-palmitoyl-sphingosine (d18:1/16:0),Lipid,Hexosylceramides (HCER),,,
+glycylisoleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+glycylleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+glycylvaline,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+guaiacol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+guanidinoacetate,Amino Acid,Creatine Metabolism,"Glycine, serine and threonine metabolism;Arginine and proline metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+guanine,Nucleotide,"Purine Metabolism, Guanine containing",Purine metabolism,Nucleotide metabolism,Imidazopyrimidines
+guanosine,Nucleotide,"Purine Metabolism, Guanine containing",,,Purine nucleosides
+5'- GMP,Nucleotide,"Purine Metabolism, Guanine containing",,,Purine nucleotides
+gulonate*,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,Hydroxy acids and derivatives
+heptadecasphingosine (d17:1),Lipid,Sphingosines,,,Organonitrogen compounds
+heptenedioate (C7:1-DC)*,Lipid,"Fatty Acid, Dicarboxylate",,,
+hexadecasphingosine (d16:1)*,Lipid,Sphingosines,,,Organonitrogen compounds
+hexanoylcarnitine (C6),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",,,Fatty Acyls
+hexanoylglutamine,Lipid,Fatty Acid Metabolism (Acyl Glutamine),,,Carboxylic acids and derivatives
+hexanoylglycine (C6),Lipid,Fatty Acid Metabolism (Acyl Glycine),,,Carboxylic acids and derivatives
+hippurate,Xenobiotics,Benzoate Metabolism,Phenylalanine metabolism,Amino acid metabolism,Benzene and substituted derivatives
+histamine,Amino Acid,Histidine Metabolism,Asthma;Fc epsilon RI signaling pathway;Biosynthesis of alkaloids derived from histidine and purine;Histidine metabolism;Histamine H2/H3 receptor agonists/antagonists;Inflammatory mediator regulation of TRP channels;Synaptic vesicle cycle;Protein digestion and absorption;Gastric acid secretion;Neuroactive ligand-receptor interaction,Signaling molecules and interaction;Amino acid metabolism;Chemical structure transformation maps;Target-based classification: G protein-coupled receptors;Immune system;Sensory system;Nervous system;Immune disease;Digestive system,Organonitrogen compounds
+histidine,Amino Acid,Histidine Metabolism,Biosynthesis of alkaloids derived from histidine and purine;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Histidine metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;ABC transporters;beta-Alanine metabolism;Protein digestion and absorption;Staurosporine biosynthesis,Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+histidine methyl ester,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+homoarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+homostachydrine*,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+hydroquinone sulfate,Xenobiotics,Drug - Topical Agents,,,Organic sulfuric acids and derivatives
+"hydroxy-N6,N6,N6-trimethyllysine*",Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+hydroxyasparagine,Amino Acid,Alanine and Aspartate Metabolism,,,Carboxylic acids and derivatives
+hydroxybupropion,Xenobiotics,Drug - Psychoactive,,,Organooxygen compounds
+hydroxycotinine,Xenobiotics,Tobacco Metabolite,,,Pyridines and derivatives
+hydroxypalmitoyl sphingomyelin (d18:1/16:0(OH)),Lipid,Sphingomyelins,,,
+hypotaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Taurine and hypotaurine metabolism,Metabolism of other amino acids,Sulfinic acids and derivatives
+hypoxanthine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Purine metabolism,Nucleotide metabolism,Imidazopyrimidines
+imidazole lactate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Azoles
+imidazole propionate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Azoles
+indoleacetate,Amino Acid,Tryptophan Metabolism,Biosynthesis of plant hormones;Plant hormone signal transduction;Tryptophan metabolism,Amino acid metabolism;Chemical structure transformation maps;Signal transduction,Indoles and derivatives
+indoleacetoylcarnitine*,Amino Acid,Tryptophan Metabolism,,,
+indoleacetylglutamine,Amino Acid,Tryptophan Metabolism,,,Carboxylic acids and derivatives
+indolelactate,Amino Acid,Tryptophan Metabolism,,,Indoles and derivatives
+indolepropionylglycine,Amino Acid,Tryptophan Metabolism,,,Carboxylic acids and derivatives
+inosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",,,Purine nucleosides
+isobutyrylcarnitine (C4),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+isocaproylglycine,Lipid,Fatty Acid Metabolism (Acyl Glycine),,,Carboxylic acids and derivatives
+isoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","Valine, leucine and isoleucine degradation;Mineral absorption;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Shigellosis;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;ABC transporters;Glucosinolate biosynthesis;Protein digestion and absorption;Tropane, piperidine and pyridine alkaloid biosynthesis;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Infectious disease: bacterial;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+isoleucylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+isovalerylcarnitine (C5),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+isovalerylglycine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+kynurenate,Amino Acid,Tryptophan Metabolism,Tryptophan metabolism,Amino acid metabolism,Quinolines and derivatives
+kynurenine,Amino Acid,Tryptophan Metabolism,African trypanosomiasis;Tryptophan metabolism,Amino acid metabolism;Infectious disease: parasitic,Organooxygen compounds
+L-urobilin,Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,Porphyrin and chlorophyll metabolism,Metabolism of cofactors and vitamins,Tetrapyrroles and derivatives
+lactate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",,,Hydroxy acids and derivatives
+lactose,Carbohydrate,Disaccharides and Oligosaccharides,,,Organooxygen compounds
+lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*,Lipid,Lactosylceramides (LCER),,,
+lactosyl-N-palmitoyl-sphingosine (d18:1/16:0),Lipid,Lactosylceramides (LCER),,,Sphingolipids
+lanthionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+laurylcarnitine (C12),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",,,Fatty Acyls
+leucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","Valine, leucine and isoleucine degradation;Mineral absorption;Biosynthesis of alkaloids derived from histidine and purine;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Shigellosis;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;ABC transporters;Glucosinolate biosynthesis;Protein digestion and absorption;mTOR signaling pathway;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Infectious disease: bacterial;Chemical structure transformation maps;Membrane transport;Global and overview maps;Digestive system;Signal transduction;Cancer: overview,Carboxylic acids and derivatives
+leucylalanine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+leucylglutamine*,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+leucylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+lignoceroyl sphingomyelin (d18:1/24:0),Lipid,Sphingomyelins,,,
+lysine,Amino Acid,Lysine Metabolism,"Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biotin metabolism;Lysine degradation;Biosynthesis of various secondary metabolites - part 3;Biosynthesis of plant secondary metabolites;2-Oxocarboxylic acid metabolism;ABC transporters;Lysine biosynthesis;Protein digestion and absorption;Tropane, piperidine and pyridine alkaloid biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Membrane transport;Global and overview maps;Digestive system,Carboxylic acids and derivatives
+lysylleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+lyxonate,Carbohydrate,Pentose Metabolism,,,Organooxygen compounds
+malate,Energy,TCA Cycle,,,Hydroxy acids and derivatives
+maleate,Lipid,"Fatty Acid, Dicarboxylate",Nicotinate and nicotinamide metabolism;Tyrosine metabolism;Butanoate metabolism,Amino acid metabolism;Metabolism of cofactors and vitamins;Carbohydrate metabolism,Carboxylic acids and derivatives
+malonate,Lipid,Fatty Acid Synthesis,Fatty acid metabolism;Fatty acid biosynthesis;beta-Alanine metabolism;Pyrimidine metabolism,Nucleotide metabolism;Metabolism of other amino acids;Global and overview maps;Lipid metabolism,Carboxylic acids and derivatives
+malonylcarnitine,Lipid,Fatty Acid Synthesis,,,Fatty Acyls
+maltol sulfate,Xenobiotics,Food Component/Plant,,,Pyrans
+maltopentaose,Carbohydrate,Glycogen Metabolism,,,Organooxygen compounds
+maltose,Carbohydrate,Glycogen Metabolism,,,Organooxygen compounds
+maltotetraose,Carbohydrate,Glycogen Metabolism,,,Organooxygen compounds
+maltotriose,Carbohydrate,Glycogen Metabolism,ABC transporters;Carbohydrate digestion and absorption;Starch and sucrose metabolism,Membrane transport;Digestive system;Carbohydrate metabolism,Organooxygen compounds
+mannitol/sorbitol,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",Galactose metabolism;Phosphotransferase system (PTS);ABC transporters;Fructose and mannose metabolism,Membrane transport;Carbohydrate metabolism,Organooxygen compounds
+mannonate*,Xenobiotics,Food Component/Plant,Pentose and glucuronate interconversions,Carbohydrate metabolism,Hydroxy acids and derivatives
+mannose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Lysosome;Phosphotransferase system (PTS);ABC transporters;C-type lectin receptor signaling pathway;Fructose and mannose metabolism,Transport and catabolism;Membrane transport;Immune system;Carbohydrate metabolism,Organooxygen compounds
+margaroylcarnitine (C17)*,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",,,Fatty Acyls
+metformin,Xenobiotics,Drug - Metabolic,Bile secretion;AMPK signaling pathway;Longevity regulating pathway,Digestive system;Signal transduction;Aging,Organonitrogen compounds
+methionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Mineral absorption;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Cysteine and methionine metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;Glucosinolate biosynthesis;Biosynthesis of plant hormones;Protein digestion and absorption;Antifolate resistance,Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Drug resistance: antineoplastic;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+methionine sulfone,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+methionine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Cysteine and methionine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+methyl-4-hydroxybenzoate,Xenobiotics,Benzoate Metabolism,,,Benzene and substituted derivatives
+methyl-4-hydroxybenzoate sulfate,Xenobiotics,Benzoate Metabolism,,,Organooxygen compounds
+methylmalonate (MMA),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),"Valine, leucine and isoleucine degradation;Propanoate metabolism;Pyrimidine metabolism",Amino acid metabolism;Nucleotide metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+methylphosphate,Nucleotide,Purine and Pyrimidine Metabolism,,,Organic phosphoric acids and derivatives
+methylsuccinate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+mirtazapine,Xenobiotics,Drug - Psychoactive,,,Piperazinoazepines
+myo-inositol,Lipid,Inositol Metabolism,Galactose metabolism;Inositol phosphate metabolism;Phosphatidylinositol signaling system;ABC transporters;Streptomycin biosynthesis;Ascorbate and aldarate metabolism,Biosynthesis of other secondary metabolites;Membrane transport;Signal transduction;Carbohydrate metabolism,Organooxygen compounds
+myristoleoylcarnitine (C14:1)*,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+myristoylcarnitine (C14),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",,,Fatty Acyls
+N(1)-acetylspermine,Amino Acid,Polyamine Metabolism,,,Carboximidic acids and derivatives
+"N,N,N-trimethyl-5-aminovalerate",Amino Acid,Lysine Metabolism,,,Fatty Acyls
+"N,N,N-trimethyl-alanylproline betaine (TMAP)",Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,
+"N,N-dimethyl-pro-pro",Peptide,Modified Peptides,,,
+N-(2-furoyl)glycine,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+N-(2-hydroxypalmitoyl)-sphingosine (d18:1/16:0(2OH)),Lipid,Ceramides,,,Organooxygen compounds
+N-acetyl-1-methylhistidine*,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+N-acetyl-2-aminooctanoate*,Lipid,"Fatty Acid, Amino",,,Carboxylic acids and derivatives
+N-acetyl-3-methylhistidine*,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+N-acetyl-aspartyl-glutamate (NAAG),Amino Acid,Glutamate Metabolism,"Alanine, aspartate and glutamate metabolism;Neuroactive ligand-receptor interaction",Signaling molecules and interaction;Amino acid metabolism,Carboxylic acids and derivatives
+N-acetyl-cadaverine,Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+N-acetyl-isoputreanine,Amino Acid,Polyamine Metabolism,,,Carboxylic acids and derivatives
+n-Acetyl-s-(2-hydroxypropyl)cysteine,Xenobiotics,Chemical,,,Carboxylic acids and derivatives
+N-acetyl-S-allyl-L-cysteine,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+N-acetylalanine,Amino Acid,Alanine and Aspartate Metabolism,,,Carboxylic acids and derivatives
+N-acetylalliin,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+N-acetylarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+N-acetylasparagine,Amino Acid,Alanine and Aspartate Metabolism,,,Carboxylic acids and derivatives
+N-acetylaspartate (NAA),Amino Acid,Alanine and Aspartate Metabolism,"Alanine, aspartate and glutamate metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+N-acetylcitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,Biosynthesis of amino acids;Arginine biosynthesis,Amino acid metabolism;Global and overview maps,Carboxylic acids and derivatives
+N-acetylcysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+N-acetylglucosamine/N-acetylgalactosamine,Carbohydrate,Aminosugar Metabolism,Amino sugar and nucleotide sugar metabolism;Phosphotransferase system (PTS);ABC transporters,Membrane transport;Carbohydrate metabolism,Organooxygen compounds
+N-acetylglucosaminylasparagine,Carbohydrate,Aminosugar Metabolism,,,Carboxylic acids and derivatives
+N-acetylglutamate,Amino Acid,Glutamate Metabolism,Biosynthesis of amino acids;Arginine biosynthesis;2-Oxocarboxylic acid metabolism,Amino acid metabolism;Global and overview maps,Carboxylic acids and derivatives
+N-acetylglutamine,Amino Acid,Glutamate Metabolism,,,Carboxylic acids and derivatives
+N-acetylglycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",,,Carboxylic acids and derivatives
+N-acetylhistamine,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+N-acetylhistidine,Amino Acid,Histidine Metabolism,,,Carboxylic acids and derivatives
+N-acetylhomocitrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,
+N-acetylisoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+N-acetylleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+N-acetylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+N-acetylmethionine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+N-acetylneuraminate,Carbohydrate,Aminosugar Metabolism,Amino sugar and nucleotide sugar metabolism,Carbohydrate metabolism,Organooxygen compounds
+N-acetylphenylalanine,Amino Acid,Phenylalanine Metabolism,Phenylalanine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+N-acetylputrescine,Amino Acid,Polyamine Metabolism,Arginine and proline metabolism,Amino acid metabolism,Carboximidic acids and derivatives
+N-acetylpyrraline,Xenobiotics,Food Component/Plant,,,
+N-acetylserine,Amino Acid,"Glycine, Serine and Threonine Metabolism",,,Carboxylic acids and derivatives
+N-acetyltaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Organic sulfonic acids and derivatives
+N-acetylthreonine,Amino Acid,"Glycine, Serine and Threonine Metabolism",,,Carboxylic acids and derivatives
+N-acetyltryptophan,Amino Acid,Tryptophan Metabolism,,,Carboxylic acids and derivatives
+N-acetyltyrosine,Amino Acid,Tyrosine Metabolism,,,Carboxylic acids and derivatives
+N-acetylvaline,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Carboxylic acids and derivatives
+N-formylkynurenine,Amino Acid,Tryptophan Metabolism,,,Organooxygen compounds
+N-formylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Cysteine and methionine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+N-formylphenylalanine,Amino Acid,Tyrosine Metabolism,,,Carboxylic acids and derivatives
+N-methylhydroxyproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+N-methylproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+N-palmitoyl-sphinganine (d18:0/16:0),Lipid,Dihydroceramides,,,Sphingolipids
+N-palmitoyl-sphingosine (d18:1/16:0),Lipid,Ceramides,,,Sphingolipids
+"N1,N12-diacetylspermine",Amino Acid,Polyamine Metabolism,,,Carboximidic acids and derivatives
+N1-Methyl-2-pyridone-5-carboxamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Nicotinate and nicotinamide metabolism,Metabolism of cofactors and vitamins,Pyridines and derivatives
+N1-Methyl-4-pyridone-3-carboxamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Nicotinate and nicotinamide metabolism,Metabolism of cofactors and vitamins,Pyridines and derivatives
+1-methyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",,,Purine nucleosides
+N1-methylinosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",,,Imidazopyrimidines
+"N2,N2-dimethylguanosine",Nucleotide,"Purine Metabolism, Guanine containing",,,Purine nucleosides
+"N2,N5-diacetylornithine",Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+"N2-acetyl,N6-methyllysine",Amino Acid,Lysine Metabolism,,,
+N2-methylguanosine,Nucleotide,"Purine Metabolism, Guanine containing",,,Purine nucleosides
+"N6,N6,N6-trimethyllysine",Amino Acid,Lysine Metabolism,Lysine degradation,Amino acid metabolism,Carboxylic acids and derivatives
+"N6,N6-dimethyllysine",Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+N6-carbamoylthreonyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",,,Purine nucleosides
+N6-carboxymethyllysine,Carbohydrate,Advanced Glycation End-product,,,Carboxylic acids and derivatives
+N6-methyllysine,Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+naringenin 7-glucuronide,Xenobiotics,Food Component/Plant,,,Flavonoids
+nicotinamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Vitamin digestion and absorption;Nicotinate and nicotinamide metabolism;Longevity regulating pathway - worm,Metabolism of cofactors and vitamins;Digestive system;Aging,Pyridines and derivatives
+NAD+,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,,,(5'->5')-dinucleotides
+NADH,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Oxidative phosphorylation;Calcium signaling pathway;Aldosterone synthesis and secretion;Thermogenesis,Endocrine system;Environmental adaptation;Signal transduction;Energy metabolism,(5'->5')-dinucleotides
+nicotinamide riboside,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Nicotinate and nicotinamide metabolism;Longevity regulating pathway - worm,Metabolism of cofactors and vitamins;Aging,Organooxygen compounds
+nicotinate,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;Pertussis;Tropane, piperidine and pyridine alkaloid biosynthesis",Biosynthesis of other secondary metabolites;Infectious disease: bacterial;Metabolism of cofactors and vitamins;Chemical structure transformation maps,Pyridines and derivatives
+norcotinine,Xenobiotics,Tobacco Metabolite,,,Pyridines and derivatives
+o-cresol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+O-methyltyrosine,Amino Acid,Tyrosine Metabolism,,,Phenylpropanoic acids
+O-sulfo-L-tyrosine,Xenobiotics,Chemical,,,Carboxylic acids and derivatives
+o-Tyrosine,Amino Acid,Tyrosine Metabolism,,,Carboxylic acids and derivatives
+octanoylcarnitine (C8),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",,,Fatty Acyls
+oleoylcarnitine (C18:1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+ondansetron,Xenobiotics,Drug - Gastrointestinal,,,Indoles and derivatives
+ornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,"Biosynthesis of amino acids;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of various secondary metabolites - part 3;Biosynthesis of plant secondary metabolites;D-Arginine and D-ornithine metabolism;Arginine biosynthesis;2-Oxocarboxylic acid metabolism;ABC transporters;Arginine and proline metabolism;Glutathione metabolism",Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps,Carboxylic acids and derivatives
+orotate,Nucleotide,"Pyrimidine Metabolism, Orotate containing",Pyrimidine metabolism,Nucleotide metabolism,Diazines
+orotidine,Nucleotide,"Pyrimidine Metabolism, Orotate containing",,,Pyrimidine nucleosides
+p-cresol glucuronide*,Amino Acid,Tyrosine Metabolism,,,Organooxygen compounds
+p-cresol sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+palmitoleoylcarnitine (C16:1)*,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+palmitoyl dihydrosphingomyelin (d18:0/16:0)*,Lipid,Dihydrosphingomyelins,,,Sphingolipids
+palmitoyl sphingomyelin (d18:1/16:0),Lipid,Sphingomyelins,,,Sphingolipids
+palmitoylcarnitine (C16),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",,,Fatty Acyls
+pantoate,Cofactors and Vitamins,Pantothenate and CoA Metabolism,,,Fatty Acyls
+pantothenate (Vitamin B5),Cofactors and Vitamins,Pantothenate and CoA Metabolism,Vitamin digestion and absorption;Pantothenate and CoA biosynthesis;beta-Alanine metabolism,Metabolism of cofactors and vitamins;Metabolism of other amino acids;Digestive system,Carboxylic acids and derivatives
+pentose acid*,Partially Characterized Molecules,Partially Characterized Molecules,,,Fatty Acyls
+phenethylamine,Amino Acid,Phenylalanine Metabolism,Phenylalanine metabolism,Amino acid metabolism,Benzene and substituted derivatives
+phenol sulfate,Amino Acid,Tyrosine Metabolism,,,Organic sulfuric acids and derivatives
+phentermine,Xenobiotics,Drug - Neurological,,,Benzene and substituted derivatives
+phenylacetylglutamate,Peptide,Acetylated Peptides,,,Carboxylic acids and derivatives
+phenylacetylglutamine,Peptide,Acetylated Peptides,Phenylalanine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+phenylacetylglycine,Peptide,Acetylated Peptides,Phenylalanine metabolism,Amino acid metabolism,Carboxylic acids and derivatives
+phenylacetylthreonine,Peptide,Acetylated Peptides,,,
+phenylalanine,Amino Acid,Phenylalanine Metabolism,"Mineral absorption;Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of various secondary metabolites - part 2;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;ABC transporters;Glucosinolate biosynthesis;Biosynthesis of plant hormones;Protein digestion and absorption;Biosynthesis of phenylpropanoids;Tropane, piperidine and pyridine alkaloid biosynthesis;Phenylalanine metabolism;Biosynthesis of alkaloids derived from shikimate pathway;Phenylpropanoid biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+phenylalanylalanine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+phenylalanylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+phenylephrine,Xenobiotics,Drug - Respiratory,,,Phenols
+phenyllactate (PLA),Amino Acid,Phenylalanine Metabolism,,,Phenylpropanoic acids
+phosphate,Energy,Oxidative Phosphorylation,,,Non-metal oxoanionic compounds
+phosphoethanolamine (PE),Lipid,Phospholipid Metabolism,Sphingolipid metabolism;Sphingolipid signaling pathway;Glycerophospholipid metabolism;Cationic antimicrobial peptide (CAMP) resistance,Lipid metabolism;Signal transduction;Drug resistance: antimicrobial,Organic phosphoric acids and derivatives
+phytosphingosine,Lipid,Sphingolipid Synthesis,Sphingolipid metabolism,Lipid metabolism,Organonitrogen compounds
+picolinate,Amino Acid,Tryptophan Metabolism,Tryptophan metabolism,Amino acid metabolism,Pyridines and derivatives
+pimelate (C7-DC),Lipid,"Fatty Acid, Dicarboxylate",Biotin metabolism,Metabolism of cofactors and vitamins,Fatty Acyls
+pipecolate,Amino Acid,Lysine Metabolism,,,Carboxylic acids and derivatives
+piperidine,Xenobiotics,Food Component/Plant,"Protein digestion and absorption;Tropane, piperidine and pyridine alkaloid biosynthesis",Biosynthesis of other secondary metabolites;Digestive system,Piperidines
+pregnanediol-3-glucuronide,Lipid,Progestin Steroids,,,Steroids and steroid derivatives
+pregnen-diol disulfate*,Lipid,Pregnenolone Steroids,,,Steroids and steroid derivatives
+pregnenetriol disulfate*,Lipid,Pregnenolone Steroids,,,
+prolylhydroxyproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,,,Carboxylic acids and derivatives
+progesterone,Lipid,Progestin Steroids,"Progesterone, androgen and estrogen receptor agonists/antagonists;Oocyte meiosis;Steroid hormone biosynthesis;Cortisol synthesis and secretion;Glucocorticoid and mineralocorticoid receptor agonists/antagonists;Prolactin signaling pathway;Prostate cancer;Ovarian steroidogenesis;Breast cancer;Cushing syndrome;Pathways in cancer;Aldosterone synthesis and secretion;Progesterone-mediated oocyte maturation",Target-based classification: Nuclear receptors;Endocrine system;Cancer: specific types;Lipid metabolism;Cell growth and death;Cancer: overview;Endocrine and metabolic disease,Steroids and steroid derivatives
+proline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,Mineral absorption;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Novobiocin biosynthesis;Prodigiosin biosynthesis;Carbapenem biosynthesis;Central carbon metabolism in cancer;ABC transporters;Arginine and proline metabolism;Protein digestion and absorption;Staurosporine biosynthesis,Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Membrane transport;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+prolylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+propionylcarnitine (C3),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),,,Fatty Acyls
+propyl 4-hydroxybenzoate sulfate,Xenobiotics,Benzoate Metabolism,,,Organic sulfuric acids and derivatives
+pseudouridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",Pyrimidine metabolism,Nucleotide metabolism,Nucleoside and nucleotide analogues
+putrescine,Amino Acid,Polyamine Metabolism,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Biosynthesis of plant secondary metabolites;D-Arginine and D-ornithine metabolism;ABC transporters;Arginine and proline metabolism;Protein digestion and absorption;Glutathione metabolism;Tropane, piperidine and pyridine alkaloid biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Digestive system,Organonitrogen compounds
+pyridoxamine,Cofactors and Vitamins,Vitamin B6 Metabolism,Vitamin B6 metabolism;Vitamin digestion and absorption,Metabolism of cofactors and vitamins;Digestive system,Pyridines and derivatives
+pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,Vitamin B6 metabolism,Metabolism of cofactors and vitamins,Pyridines and derivatives
+pyrraline,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+pyruvate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism","Monobactam biosynthesis;D-Alanine metabolism;Alanine, aspartate and glutamate metabolism;Biosynthesis of alkaloids derived from histidine and purine;Glycine, serine and threonine metabolism;Dioxin degradation;Biosynthesis of amino acids;Carbon fixation pathways in prokaryotes;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;HIF-1 signaling pathway;Glycolysis / Gluconeogenesis;Insulin resistance;Xylene degradation;Taurine and hypotaurine metabolism;Type II diabetes mellitus;Phosphotransferase system (PTS);Biosynthesis of various secondary metabolites - part 3;Biosynthesis of terpenoids and steroids;C5-Branched dibasic acid metabolism;Cysteine and methionine metabolism;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;Carbon fixation in photosynthetic organisms;Insulin secretion;Vancomycin resistance;Central carbon metabolism in cancer;Thiamine metabolism;2-Oxocarboxylic acid metabolism;Benzoate degradation;Terpenoid backbone biosynthesis;Degradation of aromatic compounds;Pentose and glucuronate interconversions;Methane metabolism;Pantothenate and CoA biosynthesis;Tyrosine metabolism;Phosphonate and phosphinate metabolism;Arginine and proline metabolism;Biosynthesis of plant hormones;Butanoate metabolism;Biosynthesis of alkaloids derived from terpenoid and polyketide;Glyoxylate and dicarboxylate metabolism;Biosynthesis of phenylpropanoids;Phenylalanine metabolism;Pyruvate metabolism;AMPK signaling pathway;Carbon metabolism;Biosynthesis of various secondary metabolites - part 1;Biosynthesis of alkaloids derived from shikimate pathway;Valine, leucine and isoleucine biosynthesis;Ascorbate and aldarate metabolism;Pentose phosphate pathway;Glucagon signaling pathway",Amino acid metabolism;Biosynthesis of other secondary metabolites;Endocrine system;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Metabolism of terpenoids and polyketides;Membrane transport;Global and overview maps;Xenobiotics biodegradation and metabolism;Signal transduction;Cancer: overview;Endocrine and metabolic disease;Drug resistance: antimicrobial;Energy metabolism;Carbohydrate metabolism,Keto acids and derivatives
+quinate,Xenobiotics,Food Component/Plant,"Phenylalanine, tyrosine and tryptophan biosynthesis",Amino acid metabolism,Organooxygen compounds
+quinolinate,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;beta-Alanine metabolism;Tryptophan metabolism",Amino acid metabolism;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids,Pyridines and derivatives
+ranitidine,Xenobiotics,Drug - Gastrointestinal,,,Organonitrogen compounds
+ranitidine N-oxide*,Xenobiotics,Drug - Gastrointestinal,,,Heteroaromatic compounds
+ribitol,Carbohydrate,Pentose Metabolism,Riboflavin metabolism;ABC transporters;Pentose and glucuronate interconversions,Metabolism of cofactors and vitamins;Membrane transport;Carbohydrate metabolism,Organooxygen compounds
+ribonate,Carbohydrate,Pentose Metabolism,,,Organooxygen compounds
+ribose,Carbohydrate,Pentose Metabolism,Bacterial chemotaxis;ABC transporters;Pentose phosphate pathway,Membrane transport;Cell motility;Carbohydrate metabolism,Organooxygen compounds
+ribulose/xylulose,Carbohydrate,Pentose Metabolism,,,Organooxygen compounds
+S-1-pyrroline-5-carboxylate,Amino Acid,Glutamate Metabolism,,,Carboxylic acids and derivatives
+S-adenosylmethionine (SAM),Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Monobactam biosynthesis;Biosynthesis of amino acids;Sulfur relay system;Cysteine and methionine metabolism;Biosynthesis of plant secondary metabolites;Arginine and proline metabolism;Biosynthesis of plant hormones;Zeatin biosynthesis,"Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps;Metabolism of terpenoids and polyketides;Folding, sorting and degradation;Global and overview maps",5'-deoxyribonucleosides
+S-carboxyethylcysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+S-methylcysteine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+S-methylglutathione,Amino Acid,Glutathione Metabolism,,,Carboxylic acids and derivatives
+S-methylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",,,Carboxylic acids and derivatives
+salicylate,Xenobiotics,Drug - Topical Agents,Dioxin degradation;Polycyclic aromatic hydrocarbon degradation;Degradation of aromatic compounds;Biosynthesis of plant hormones;Plant hormone signal transduction;Bile secretion;Biosynthesis of phenylpropanoids;Naphthalene degradation;Biosynthesis of siderophore group nonribosomal peptides;Phenylalanine metabolism,Amino acid metabolism;Chemical structure transformation maps;Metabolism of terpenoids and polyketides;Global and overview maps;Xenobiotics biodegradation and metabolism;Digestive system;Signal transduction,Benzene and substituted derivatives
+sarcosine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Glycine, serine and threonine metabolism;Arginine and proline metabolism",Amino acid metabolism,Carboxylic acids and derivatives
+sebacate (C10-DC),Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+sedoheptulose,Carbohydrate,Pentose Metabolism,,,Organooxygen compounds
+serine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Sphingolipid metabolism;Monobactam biosynthesis;Mineral absorption;Glycine, serine and threonine metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Sulfur metabolism;Biosynthesis of various secondary metabolites - part 3;Cyanoamino acid metabolism;Cysteine and methionine metabolism;Sphingolipid signaling pathway;Biosynthesis of plant secondary metabolites;Vancomycin resistance;Central carbon metabolism in cancer;ABC transporters;Methane metabolism;Protein digestion and absorption;Glyoxylate and dicarboxylate metabolism;Carbon metabolism",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Lipid metabolism;Digestive system;Signal transduction;Cancer: overview;Drug resistance: antimicrobial;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+sertraline,Xenobiotics,Drug - Psychoactive,,,Tetralins
+spermidine,Amino Acid,Polyamine Metabolism,ABC transporters;beta-Alanine metabolism;Arginine and proline metabolism;Glutathione metabolism;Bile secretion;Biosynthesis of siderophore group nonribosomal peptides;Phenylpropanoid biosynthesis,Amino acid metabolism;Biosynthesis of other secondary metabolites;Metabolism of other amino acids;Metabolism of terpenoids and polyketides;Membrane transport;Digestive system,Organonitrogen compounds
+spermine,Amino Acid,Polyamine Metabolism,beta-Alanine metabolism;Arginine and proline metabolism;Glutathione metabolism;Bile secretion,Amino acid metabolism;Metabolism of other amino acids;Digestive system,Organonitrogen compounds
+sphingadienine,Lipid,Sphingolipid Synthesis,,,Organonitrogen compounds
+sphinganine,Lipid,Sphingolipid Synthesis,,,Organonitrogen compounds
+"sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*",Lipid,Sphingomyelins,,,
+"sphingomyelin (d18:0/18:0, d19:0/17:0)*",Lipid,Dihydrosphingomyelins,,,Sphingolipids
+"sphingomyelin (d18:1/14:0, d16:1/16:0)*",Lipid,Sphingomyelins,,,Sphingolipids
+"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)",Lipid,Sphingomyelins,,,Sphingolipids
+"sphingomyelin (d18:1/20:0, d16:1/22:0)*",Lipid,Sphingomyelins,,,Sphingolipids
+"sphingomyelin (d18:1/24:1, d18:2/24:0)*",Lipid,Sphingomyelins,,,Sphingolipids
+"sphingomyelin (d18:2/24:1, d18:1/24:2)*",Lipid,Sphingomyelins,,,Diazinanes
+sphingosine,Lipid,Sphingosines,Sphingolipid metabolism;Necroptosis;Apoptosis;Sphingolipid signaling pathway,Lipid metabolism;Cell growth and death;Signal transduction,Organonitrogen compounds
+stachydrine,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+stearoyl ethanolamide,Lipid,Endocannabinoid,,,Organonitrogen compounds
+stearoyl sphingomyelin (d18:1/18:0),Lipid,Sphingomyelins,,,Sphingolipids
+stearoylcarnitine (C18),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",,,Fatty Acyls
+suberate (C8-DC),Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+suberoylcarnitine (C8-DC),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)",,,Carboxylic acids and derivatives
+succinate,Energy,TCA Cycle,"Alanine, aspartate and glutamate metabolism;Biosynthesis of alkaloids derived from histidine and purine;Oxidative phosphorylation;Carbon fixation pathways in prokaryotes;Sulfur metabolism;Citrate cycle (TCA cycle);Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid;Lysine degradation;Biosynthesis of terpenoids and steroids;Nicotinate and nicotinamide metabolism;Biosynthesis of plant secondary metabolites;Two-component system;Central carbon metabolism in cancer;cAMP signaling pathway;Degradation of aromatic compounds;Tyrosine metabolism;Biosynthesis of plant hormones;Butanoate metabolism;Biosynthesis of alkaloids derived from terpenoid and polyketide;Propanoate metabolism;GABAergic synapse;Glyoxylate and dicarboxylate metabolism;Biosynthesis of phenylpropanoids;Phenylalanine metabolism;Pyruvate metabolism;Chlorocyclohexane and chlorobenzene degradation;Carbon metabolism;Biosynthesis of alkaloids derived from shikimate pathway;Glucagon signaling pathway",Amino acid metabolism;Endocrine system;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Nervous system;Global and overview maps;Xenobiotics biodegradation and metabolism;Signal transduction;Cancer: overview;Energy metabolism;Carbohydrate metabolism,Carboxylic acids and derivatives
+succinylcarnitine (C4-DC),Energy,TCA Cycle,,,Fatty Acyls
+sucrose,Carbohydrate,Disaccharides and Oligosaccharides,Galactose metabolism;Phosphotransferase system (PTS);ABC transporters;Taste transduction;Carbohydrate digestion and absorption;Starch and sucrose metabolism,Membrane transport;Sensory system;Digestive system;Carbohydrate metabolism,Organooxygen compounds
+sulfate of piperine metabolite C16H19NO3 (2)*,Xenobiotics,Food Component/Plant,,,
+sulfate of piperine metabolite C16H19NO3 (3)*,Xenobiotics,Food Component/Plant,,,
+sulfate*,Xenobiotics,Chemical,,,Non-metal oxoanionic compounds
+tartarate,Xenobiotics,Food Component/Plant,Glyoxylate and dicarboxylate metabolism,Carbohydrate metabolism,Organooxygen compounds
+tartronate (hydroxymalonate),Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+taurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",Primary bile acid biosynthesis;Sulfur metabolism;Taurine and hypotaurine metabolism;ABC transporters;Neuroactive ligand-receptor interaction,Signaling molecules and interaction;Metabolism of other amino acids;Membrane transport;Lipid metabolism;Energy metabolism,Organic sulfonic acids and derivatives
+theanine,Xenobiotics,Food Component/Plant,,,Carboxylic acids and derivatives
+theobromine,Xenobiotics,Xanthine Metabolism,Biosynthesis of alkaloids derived from histidine and purine;Caffeine metabolism;Biosynthesis of plant secondary metabolites,Biosynthesis of other secondary metabolites;Chemical structure transformation maps,Imidazopyrimidines
+theophylline,Xenobiotics,Xanthine Metabolism,Biosynthesis of alkaloids derived from histidine and purine;Caffeine metabolism;Biosynthesis of plant secondary metabolites,Biosynthesis of other secondary metabolites;Chemical structure transformation maps,Imidazopyrimidines
+thioproline,Xenobiotics,Chemical,,,Carboxylic acids and derivatives
+threonate,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Ascorbate and aldarate metabolism,Carbohydrate metabolism,Organooxygen compounds
+threonine,Amino Acid,"Glycine, Serine and Threonine Metabolism","Monobactam biosynthesis;Porphyrin and chlorophyll metabolism;Mineral absorption;Glycine, serine and threonine metabolism;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of various secondary metabolites - part 3;Biosynthesis of plant secondary metabolites;ABC transporters;Protein digestion and absorption;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Membrane transport;Global and overview maps;Digestive system,Carboxylic acids and derivatives
+threonylphenylalanine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+thymidine,Nucleotide,"Pyrimidine Metabolism, Thymine containing",Pyrimidine metabolism,Nucleotide metabolism,Pyrimidine nucleosides
+thymine,Nucleotide,"Pyrimidine Metabolism, Thymine containing",Pyrimidine metabolism,Nucleotide metabolism,Diazines
+thymol sulfate,Xenobiotics,Food Component/Plant,,,Organic sulfuric acids and derivatives
+tiglyl carnitine (C5),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,Fatty Acyls
+hydroxyproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,ABC transporters;Arginine and proline metabolism,Amino acid metabolism;Membrane transport,Carboxylic acids and derivatives
+trans-urocanate,Amino Acid,Histidine Metabolism,Histidine metabolism,Amino acid metabolism,Azoles
+trazadone,Xenobiotics,Drug - Psychoactive,,,Diazinanes
+tricarballylate,Energy,TCA Cycle,,,Carboxylic acids and derivatives
+triethanolamine,Xenobiotics,Chemical,Glycerophospholipid metabolism,Lipid metabolism,Organonitrogen compounds
+trigonelline (N'-methylnicotinate),Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Nicotinate and nicotinamide metabolism,Metabolism of cofactors and vitamins,Alkaloids and derivatives_dummy_Class
+trimethylamine N-oxide,Lipid,Phospholipid Metabolism,Two-component system;Methane metabolism,Signal transduction;Energy metabolism,Organonitrogen compounds
+trizma acetate,Xenobiotics,Chemical,,,Organonitrogen compounds
+tryptamine,Amino Acid,Tryptophan Metabolism,Biosynthesis of plant secondary metabolites;Neuroactive ligand-receptor interaction;Indole alkaloid biosynthesis;Biosynthesis of alkaloids derived from shikimate pathway;Tryptophan metabolism,Signaling molecules and interaction;Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps,Indoles and derivatives
+tryptophan,Amino Acid,Tryptophan Metabolism,"Mineral absorption;Glycine, serine and threonine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of various secondary metabolites - part 2;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;Glucosinolate biosynthesis;Biosynthesis of plant hormones;Protein digestion and absorption;African trypanosomiasis;Staurosporine biosynthesis;Biosynthesis of phenylpropanoids;Axon regeneration;Indole alkaloid biosynthesis;Biosynthesis of alkaloids derived from shikimate pathway;Serotonergic synapse;Tryptophan metabolism",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Development and regeneration;Chemical structure transformation maps;Nervous system;Global and overview maps;Digestive system;Cancer: overview;Infectious disease: parasitic,Indoles and derivatives
+tryptophan betaine,Amino Acid,Tryptophan Metabolism,,,Carboxylic acids and derivatives
+tryptophylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+tyramine,Amino Acid,Tyrosine Metabolism,Isoquinoline alkaloid biosynthesis;Biosynthesis of plant secondary metabolites;Methane metabolism;Tyrosine metabolism;Protein digestion and absorption;Neuroactive ligand-receptor interaction;Biosynthesis of alkaloids derived from shikimate pathway,Signaling molecules and interaction;Amino acid metabolism;Biosynthesis of other secondary metabolites;Chemical structure transformation maps;Digestive system;Energy metabolism,Benzene and substituted derivatives
+tyrosine,Amino Acid,Tyrosine Metabolism,"Ubiquinone and other terpenoid-quinone biosynthesis;Monobactam biosynthesis;Cocaine addiction;Prolactin signaling pathway;Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Biosynthesis of vancomycin group antibiotics;Novobiocin biosynthesis;Alcoholism;Biosynthesis of various secondary metabolites - part 2;Isoquinoline alkaloid biosynthesis;Betalain biosynthesis;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Amphetamine addiction;Central carbon metabolism in cancer;Thiamine metabolism;Melanogenesis;2-Oxocarboxylic acid metabolism;Methane metabolism;Dopaminergic synapse;Tyrosine metabolism;Glucosinolate biosynthesis;Parkinson disease;Protein digestion and absorption;Phenylalanine metabolism;Biosynthesis of alkaloids derived from shikimate pathway;Phenylpropanoid biosynthesis;Biosynthesis of enediyne antibiotics",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Endocrine system;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Substance dependence;Metabolism of terpenoids and polyketides;Nervous system;Global and overview maps;Neurodegenerative disease;Digestive system;Cancer: overview;Energy metabolism,Carboxylic acids and derivatives
+tyrosylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+umbelliferone sulfate,Xenobiotics,Food Component/Plant,,,Coumarins and derivatives
+undecanedioate (C11-DC),Lipid,"Fatty Acid, Dicarboxylate",,,Fatty Acyls
+undecenoylcarnitine (C11:1),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)",,,Fatty Acyls
+uracil,Nucleotide,"Pyrimidine Metabolism, Uracil containing",Pantothenate and CoA biosynthesis;beta-Alanine metabolism;Pyrimidine metabolism,Nucleotide metabolism;Metabolism of cofactors and vitamins;Metabolism of other amino acids,Diazines
+urate,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Purine metabolism;Bile secretion,Nucleotide metabolism;Digestive system,Imidazopyrimidines
+urea,Amino Acid,Urea cycle; Arginine and Proline Metabolism,Atrazine degradation;Biotin metabolism;Epithelial cell signaling in Helicobacter pylori infection;Arginine biosynthesis;ABC transporters;Arginine and proline metabolism;Purine metabolism;Pyrimidine metabolism,Amino acid metabolism;Nucleotide metabolism;Infectious disease: bacterial;Metabolism of cofactors and vitamins;Membrane transport;Xenobiotics biodegradation and metabolism,Organic carbonic acids and derivatives
+uridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",ABC transporters;Pyrimidine metabolism,Nucleotide metabolism;Membrane transport,Pyrimidine nucleosides
+"uridine-2',3'-cyclic monophosphate",Nucleotide,"Pyrimidine Metabolism, Uracil containing",Pyrimidine metabolism,Nucleotide metabolism,Pyrimidine nucleotides
+val-val-ala,Peptide,Polypeptide,,,Carboxylic acids and derivatives
+valine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","Valine, leucine and isoleucine degradation;Mineral absorption;Biosynthesis of amino acids;Aminoacyl-tRNA biosynthesis;Cyanoamino acid metabolism;Biosynthesis of plant secondary metabolites;Central carbon metabolism in cancer;2-Oxocarboxylic acid metabolism;ABC transporters;Penicillin and cephalosporin biosynthesis;Pantothenate and CoA biosynthesis;Glucosinolate biosynthesis;Protein digestion and absorption;Biosynthesis of alkaloids derived from shikimate pathway;Valine, leucine and isoleucine biosynthesis",Amino acid metabolism;Biosynthesis of other secondary metabolites;Translation;Metabolism of cofactors and vitamins;Chemical structure transformation maps;Metabolism of other amino acids;Membrane transport;Global and overview maps;Digestive system;Cancer: overview,Carboxylic acids and derivatives
+valylglutamine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+valylglycine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+valylleucine,Peptide,Dipeptide,,,Carboxylic acids and derivatives
+vanillate glucuronide,Xenobiotics,Food Component/Plant,,,
+vanillic acid glycine,Xenobiotics,Food Component/Plant,,,Benzene and substituted derivatives
+vanillic alcohol sulfate,Amino Acid,Tyrosine Metabolism,,,Phenols
+vanillylmandelate (VMA),Amino Acid,Tyrosine Metabolism,Tyrosine metabolism,Amino acid metabolism,Phenols
+xanthine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Biosynthesis of alkaloids derived from histidine and purine;Caffeine metabolism;Biosynthesis of plant secondary metabolites;Purine metabolism,Biosynthesis of other secondary metabolites;Nucleotide metabolism;Chemical structure transformation maps,Imidazopyrimidines
+xanthurenate,Amino Acid,Tryptophan Metabolism,Tryptophan metabolism,Amino acid metabolism,Quinolines and derivatives
+xylose,Carbohydrate,Pentose Metabolism,Amino sugar and nucleotide sugar metabolism;ABC transporters;Pentose and glucuronate interconversions,Membrane transport;Carbohydrate metabolism,Organooxygen compounds
+X - 07765,,,,,
+X - 11381,,,,,
+X - 11612,,,,,
+X - 11843,,,,,
+X - 11850,,,,,
+X - 12007,,,,,
+X - 12013,,,,,
+X - 12026,,,,,
+X - 12027,,,,,
+X - 12100,,,,,
+X - 12112,,,,,
+X - 12199,,,,,
+X - 12216,,,,,
+X - 12261,,,,,
+X - 12267,,,,,
+X - 12283,,,,,
+X - 12306,,,,,
+X - 12407,,,,,
+X - 12410,,,,,
+X - 12411,,,,,
+X - 12462,,,,,
+X - 12680,,,,,
+X - 12701,,,,,
+X - 12706,,,,,
+X - 12714,,,,,
+X - 12729,,,,,
+X - 12740,,,,,
+X - 12745,,,,,
+X - 12813,,,,,
+X - 12830,,,,,
+X - 12834,,,,,
+X - 12839,,,,,
+X - 12844,,,,,
+X - 12847,,,,,
+X - 12849,,,,,
+X - 13553,,,,,
+X - 13726,,,,,
+X - 13729,,,,,
+X - 13846,,,,,
+X - 13879,,,,,
+X - 14056,,,,,
+X - 14383,,,,,
+X - 15161,,,,,
+X - 15220,,,,,
+X - 15486,,,,,
+X - 15503,,,,,
+X - 15728,,,,,
+X - 16124,,,,,
+X - 16397,,,,,
+X - 17010,,,,,
+X - 17325,,,,,
+X - 17335,,,,,
+X - 17342,,,,,
+X - 17343,,,,,
+X - 17346,,,,,
+X - 17348,,,,,
+X - 17351,,,,,
+X - 17358,,,,,
+X - 17365,,,,,
+X - 17675,,,,,
+X - 17676,,,,,
+X - 17686,,,,,
+X - 17688,,,,,
+X - 18886,,,,,
+X - 20100,,,,,
+X - 21310,,,,,
+X - 21360,,,,,
+X - 21410,,,,,
+X - 21803,,,,,
+X - 21815,,,,,
+X - 21821,,,,,
+X - 21845,,,,,
+X - 22162,,,,,
+X - 22771,,,,,
+X - 22776,,,,,
+X - 23587,,,,,
+X - 23636,,,,,
+X - 23639,,,,,
+X - 23644,,,,,
+X - 23654,,,,,
+X - 23655,,,,,
+X - 23662,,,,,
+X - 23666,,,,,
+X - 23680,,,,,
+X - 24337,,,,,
+X - 24345,,,,,
+X - 24425,,,,,
+X - 24462,,,,,
+X - 24697,,,,,
+X - 24729,,,,,
+X - 25004,,,,,
+X - 25026,,,,,
+X - 25102,,,,,
+X - 25109,,,,,
+X - 25111,,,,,
+X - 25180,,,,,
+X - 25244,,,,,
+X - 25419,,,,,
+X - 25454,,,,,
+X - 25457,,,,,
+X - 25563,,,,,
+X - 25610,,,,,
+X - 25656,,,,,
+X - 25800,,,,,
+X - 25801,,,,,
+X - 25805,,,,,
+X - 25828,,,,,
+X - 25856,,,,,
+X - 25861,,,,,
+X - 25936,,,,,
+X - 25955,,,,,
