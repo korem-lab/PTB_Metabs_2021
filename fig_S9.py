@@ -64,7 +64,7 @@ def figure_S9D():
 	sample_batches.columns = ['REST', 'NEG']
 
 	m_platforms = get_metab_platforms()
-	m_platforms['PLATFORM'] = m_platforms['PLATFORM'].map({'LC/MS Neg':'NEG',
+	m_platforms['Extraction Platform'] = m_platforms['Extraction Platform'].map({'LC/MS Neg':'NEG',
 															'LC/MS Polar':'REST',
 															'LC/MS Pos Early':'REST',
 															'LC/MS Pos Late':'REST'})

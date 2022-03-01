@@ -393,7 +393,7 @@ def figure_S8C():
 	m_raw = m_raw.loc[test_metabs]
 	X_test['raw_mean'] = m_raw.mean(axis=1)
 	m_platforms = get_metab_platforms()
-	m_platforms['PLATFORM'] = m_platforms['PLATFORM'].map({'LC/MS Pos Early':0,
+	m_platforms['Extraction Platform'] = m_platforms['Extraction Platform'].map({'LC/MS Pos Early':0,
 															'LC/MS Pos Late':1,
 															'LC/MS Polar':2,
 															'LC/MS Neg':3})
