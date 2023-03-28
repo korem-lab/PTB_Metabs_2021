@@ -10,7 +10,7 @@ from utils.metabs_utils import fisher_r_to_z, run_correlations, run_DA
 
 def figure_3A():
 
-    metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True)
+    metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True, named_only=True)
     md = get_md()
     all_race_conds = list(zip((pd.Series(True, index = md.index), md.race == 1, md.race == 0), ('All', 'AA', 'White')))
     black_cond = [all_race_conds[1]]

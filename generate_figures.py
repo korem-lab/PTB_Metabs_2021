@@ -7,14 +7,13 @@ from fig_1DEFG import figures_1DEFG
 from fig_2 import figure_2A, figure_2B, figure_2D
 from fig_3 import figure_3A, figure_3B, figure_3C, figure_3D
 
-from fig_S1 import figure_S1
-from fig_S2 import figures_S2AB, figure_S2C, figures_S2DEF, figure_S2G
-from fig_S3 import figures_S3ABEFG, figures_S3CD
-from fig_S4 import figure_S4A, figure_S4B, figure_S4C, figure_S4D, figure_S4E
-from fig_S5 import figure_S5B, figure_S5C, figure_S5D, figure_S5E, figure_S5F
-from fig_S6 import figure_S6ABC, figure_S6D, figure_S6E
-from fig_S8 import figures_S8ABD, figure_S8C
-from fig_S9 import figures_S9AB, figure_S9C, figure_S9D
+from ext_data_fig_1 import ext_data_figure_1
+from ext_data_fig_2 import ext_data_fig_2AB, ext_data_fig_2C, ext_data_fig_2D
+from ext_data_fig_3 import ext_data_fig_3AB, ext_data_fig_3C, ext_data_fig_3DEF, ext_data_fig_3G
+from ext_data_fig_4 import ext_data_fig_4ABEFG, ext_data_fig_4CD
+from ext_data_fig_5 import ext_data_fig_5A, ext_data_fig_5B, ext_data_fig_5C, ext_data_fig_5D, ext_data_fig_5E, ext_data_fig_5F
+from ext_data_fig_6 import ext_data_fig_6B, ext_data_fig_6C, ext_data_fig_6D, ext_data_fig_6E, ext_data_fig_6F
+from ext_data_fig_7 import ext_data_fig_7ABC, ext_data_fig_7D, ext_data_fig_7E
 
 
 def main():
@@ -31,31 +30,35 @@ def main():
     figure_3C()
     figure_3D()
 
-    figure_S1()
-    figures_S2AB()
-    figure_S2C()
-    figures_S2DEF()
-    figure_S2G()
-    figures_S3ABEFG()
-    figures_S3CD()
-    figure_S4A()
-    figure_S4B()
-    figure_S4C()
-    figure_S4D()
-    figure_S4E()
-    figure_S5B()
-    figure_S5C()
-    figure_S5D()
-    figure_S5E()
-    figure_S5F()
-    figure_S6ABC()
-    figure_S6D()
-    figure_S6E()
-    figures_S8ABD()
-    figure_S8C()
-    figures_S9AB()
-    figure_S9C()
-    figure_S9D()
+    ext_data_figure_1()
+    ext_data_fig_2AB()
+    ext_data_fig_2C()
+    ext_data_fig_2D()
+    ext_data_fig_3AB()
+    ext_data_fig_3C()
+    ext_data_fig_3DEF()
+    ext_data_fig_3G()
+    ext_data_fig_4ABEFG()
+    ext_data_fig_4CD()
+    ext_data_fig_5A()
+    ext_data_fig_5B()
+
+    if os.path.exists("data/vp.csv"):
+        ext_data_fig_5C()
+    else:
+        print("data/vp.csv not found, skipping extended data figure 5C")
+
+    ext_data_fig_5D()
+    ext_data_fig_5E()
+    ext_data_fig_5F()
+    ext_data_fig_6B()
+    ext_data_fig_6C()
+    ext_data_fig_6D()
+    ext_data_fig_6E()
+    ext_data_fig_6F()
+    ext_data_fig_7ABC()
+    ext_data_fig_7D()
+    ext_data_fig_7E()
 
 
 if __name__ == "__main__":
@@ -65,5 +68,8 @@ if __name__ == "__main__":
 
     if not os.path.exists("./microbe_metabolite_networks"):
         os.makedirs("./microbe_metabolite_networks")
+
+    if not os.path.exists("./differential_abundance_sig_hits"):
+        os.makedirs("./differential_abundance_sig_hits")
 
     main()

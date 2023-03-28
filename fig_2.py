@@ -10,13 +10,15 @@ from utils.metabs_utils import run_DA, make_heatmap
 
 def figure_2A():
 
-	metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True)
+	metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True, named_only=True)
 	md = get_md().loc[metabs.index]
 	metabs = metabs.loc[md.index]
 	all_race_conds = list(zip((pd.Series(True, index = md.index), md.race == 1, md.race == 0), ('All', 'AA', 'White')))
 
 	res = run_DA(metabs, md, ['extreme_sPTB', 'very_sPTB', 'moderate_sPTB'], ['TB'], False, all_race_conds)
 	res['heatmap_q'] = multipletests(res['p'], method='fdr_bh')[1]
+	sig_hits = res[res['heatmap_q'] < 0.1]
+	sig_hits.to_csv("differential_abundance_sig_hits/2A_sig_hits.csv")
 	make_heatmap(None, ['All', 'AA', 'White'], "all sPTB vs TB", "./figurePanels/2A", 
 		df=res, y_ticks=False, x_ticks=False, cbar_on=False, p_05_to_q=0.5)
 	make_heatmap(None, ['All', 'AA', 'White'], "all sPTB vs TB", "./figurePanels/2A_xticks", 
@@ -65,7 +67,7 @@ def figure_2B():
 
 def figure_2D():
 
-	metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True)
+	metabs = get_metabs(min_pres = 0, min_impute = False, rzscore=True, named_only=True)
 	md = get_md().loc[metabs.index]
 	metabs = metabs.loc[md.index]
 	all_race_conds = list(zip((pd.Series(True, index = md.index), md.race == 1, md.race == 0), ('All', 'AA', 'White')))
@@ -77,6 +79,8 @@ def figure_2D():
 	very_and_extreme_ptb_vs_rest['Cond'] = 'Below 32 (AA) vs 32 and above (AA)'
 	merged = pd.concat([very_and_extreme_ptb_vs_rest, extremely_ptb_vs_rest])
 	merged['heatmap_q'] = multipletests(merged['p'], method='fdr_bh')[1]
+	sig_hits = merged[merged['heatmap_q'] < 0.1]
+	sig_hits.to_csv("differential_abundance_sig_hits/2D_sig_hits.csv")
 	make_heatmap(None, list(merged.Cond.unique()), "Above GA thresh vs below GA thresh", "./figurePanels/2D", 
 		df=merged, y_ticks=False, x_ticks=False, title_on=False, cbar_on=False, p_05_to_q=0.3)
 	make_heatmap(None, list(merged.Cond.unique()), "Above GA thresh vs below GA thresh", "./figurePanels/2D_xticks", 
