@@ -1,0 +1,83 @@
+set_type	metabolite_set_name	DA_tests_in_set	p
+Super pathway	Nucleotide	37	0.1375
+Super pathway	Amino Acid	177	0.9983
+Super pathway	Lipid	125	0.5028
+Super pathway	Xenobiotics	78	0.9065
+Super pathway	Cofactors and Vitamins	19	0.0205
+Super pathway	Energy	11	0.1114
+Super pathway	Carbohydrate	35	0.8282
+Super pathway	Peptide	33	0.9283
+Sub pathway	Polyamine Metabolism	10	0.6524
+Sub pathway	Chemical	13	0.5175
+Sub pathway	Histidine Metabolism	19	0.8682
+Sub pathway	Leucine, Isoleucine and Valine Metabolism	24	0.2567
+Sub pathway	Tyrosine Metabolism	14	0.9497
+Sub pathway	Methionine, Cysteine, SAM and Taurine Metabolism	20	0.5548
+Sub pathway	Food Component/Plant	37	0.2528
+Sub pathway	Lysine Metabolism	13	0.5802
+Sub pathway	Fatty Acid, Dicarboxylate	16	0.0691
+Sub pathway	Benzoate Metabolism	18	0.1405
+Sub pathway	TCA Cycle	10	0.0491
+Sub pathway	Urea cycle; Arginine and Proline Metabolism	19	0.1905
+Sub pathway	Tryptophan Metabolism	15	0.8474
+Sub pathway	Glutamate Metabolism	10	0.399
+Sub pathway	Dipeptide	19	0.7826
+Sub pathway	Pentose Metabolism	10	0.8662
+Sub pathway	Sphingomyelins	10	0.874
+Kegg pathway classes	Metabolism of cofactors and vitamins	31	0.9647
+Kegg pathway classes	Digestive system	43	0.263
+Kegg pathway classes	Membrane transport	43	0.2893
+Kegg pathway classes	Cancer: overview	29	0.2295
+Kegg pathway classes	Nervous system	10	0.0878
+Kegg pathway classes	Carbohydrate metabolism	44	0.1202
+Kegg pathway classes	Energy metabolism	20	0.301
+Kegg pathway classes	Chemical structure transformation maps	38	0.0876
+Kegg pathway classes	Nucleotide metabolism	24	0.2113
+Kegg pathway classes	Metabolism of other amino acids	35	0.5198
+Kegg pathway classes	Translation	20	0.3217
+Kegg pathway classes	Biosynthesis of other secondary metabolites	41	0.216
+Kegg pathway classes	Global and overview maps	43	0.2882
+Kegg pathway classes	Amino acid metabolism	90	0.5494
+Kegg pathway classes	Endocrine system	15	0.0045
+Kegg pathway classes	Lipid metabolism	22	0.9489
+Kegg pathway classes	Signal transduction	23	0.1683
+Kegg pathways	Glutathione metabolism	11	0.2894
+Kegg pathways	Biosynthesis of amino acids	32	0.4795
+Kegg pathways	Alanine_aspartate and glutamate metabolism	13	0.9845
+Kegg pathways	Phenylalanine metabolism	11	0.2992
+Kegg pathways	Biosynthesis of plant hormones	14	0.0278
+Kegg pathways	Pyrimidine metabolism	14	0.0328
+Kegg pathways	Histidine metabolism	14	0.4247
+Kegg pathways	Biosynthesis of alkaloids derived from histidine and purine	11	0.4166
+Kegg pathways	Arginine and proline metabolism	18	0.7815
+Kegg pathways	Protein digestion and absorption	25	0.1678
+Kegg pathways	Biosynthesis of alkaloids derived from ornithine_lysine and nicotinic acid	16	0.1361
+Kegg pathways	beta-Alanine metabolism	11	0.6986
+Kegg pathways	Glyoxylate and dicarboxylate metabolism	11	0.4845
+Kegg pathways	Carbon metabolism	16	0.2125
+Kegg pathways	Cysteine and methionine metabolism	14	0.8789
+Kegg pathways	ABC transporters	40	0.3157
+Kegg pathways	Biosynthesis of plant secondary metabolites	35	0.1593
+Kegg pathways	Biosynthesis of various secondary metabolites - part 3	12	0.5209
+Kegg pathways	Pentose and glucuronate interconversions	11	0.6416
+Kegg pathways	Glycine_serine and threonine metabolism	15	0.6414
+Kegg pathways	Central carbon metabolism in cancer	25	0.2072
+Kegg pathways	Mineral absorption	14	0.6211
+Kegg pathways	2-Oxocarboxylic acid metabolism	19	0.4588
+Kegg pathways	Biosynthesis of alkaloids derived from shikimate pathway	11	0.0402
+Kegg pathways	Bile secretion	11	0.4204
+Kegg pathways	Aminoacyl-tRNA biosynthesis	20	0.3217
+Kegg pathways	Purine metabolism	12	0.8115
+Kegg pathways	Nicotinate and nicotinamide metabolism	14	0.7889
+Kegg pathways	Arginine biosynthesis	11	0.4689
+Chemical family	Fatty Acyls	57	0.092
+Chemical family	Organic sulfuric acids and derivatives	20	0.1699
+Chemical family	Glycerophospholipids	26	0.4271
+Chemical family	Imidazopyrimidines	14	0.4732
+Chemical family	Carboxylic acids and derivatives	170	0.9654
+Chemical family	Organooxygen compounds	50	0.5092
+Chemical family	Organonitrogen compounds	18	0.233
+Chemical family	Pyridines and derivatives	13	0.0765
+Chemical family	Steroids and steroid derivatives	10	0.0303
+Chemical family	Hydroxy acids and derivatives	14	0.4403
+Chemical family	Sphingolipids	13	0.7975

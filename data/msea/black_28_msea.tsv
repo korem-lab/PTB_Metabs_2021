@@ -1,0 +1,67 @@
+set_type	metabolite_set_name	DA_tests_in_set	p
+Super pathway	Nucleotide	26	0.5857
+Super pathway	Amino Acid	139	0.3638
+Super pathway	Lipid	65	0.2277
+Super pathway	Xenobiotics	32	0.7578
+Super pathway	Cofactors and Vitamins	17	0.0239
+Super pathway	Energy	10	0.6008
+Super pathway	Carbohydrate	27	0.5228
+Super pathway	Peptide	15	0.566
+Sub pathway	Polyamine Metabolism	10	0.6139
+Sub pathway	Histidine Metabolism	19	0.4094
+Sub pathway	Leucine, Isoleucine and Valine Metabolism	18	0.4893
+Sub pathway	Methionine, Cysteine, SAM and Taurine Metabolism	12	0.5014
+Sub pathway	Food Component/Plant	13	0.2379
+Sub pathway	Lysine Metabolism	12	0.5708
+Sub pathway	Fatty Acid, Dicarboxylate	14	0.0658
+Sub pathway	Urea cycle; Arginine and Proline Metabolism	15	0.8397
+Sub pathway	Dipeptide	10	0.5181
+Kegg pathway classes	Metabolism of cofactors and vitamins	31	0.9555
+Kegg pathway classes	Digestive system	41	0.1984
+Kegg pathway classes	Membrane transport	38	0.035
+Kegg pathway classes	Cancer: overview	27	0.1139
+Kegg pathway classes	Carbohydrate metabolism	37	0.847
+Kegg pathway classes	Energy metabolism	20	0.539
+Kegg pathway classes	Chemical structure transformation maps	37	0.3333
+Kegg pathway classes	Nucleotide metabolism	21	0.8016
+Kegg pathway classes	Metabolism of other amino acids	32	0.0317
+Kegg pathway classes	Translation	20	0.0406
+Kegg pathway classes	Biosynthesis of other secondary metabolites	34	0.2139
+Kegg pathway classes	Global and overview maps	39	0.0034
+Kegg pathway classes	Amino acid metabolism	84	0.067
+Kegg pathway classes	Endocrine system	11	0.3723
+Kegg pathway classes	Lipid metabolism	17	0.0047
+Kegg pathway classes	Signal transduction	21	0.3937
+Kegg pathways	Glutathione metabolism	10	0.2532
+Kegg pathways	Biosynthesis of amino acids	29	0.0231
+Kegg pathways	Alanine_aspartate and glutamate metabolism	13	0.326
+Kegg pathways	Phenylalanine metabolism	11	0.6115
+Kegg pathways	Biosynthesis of plant hormones	12	0.6154
+Kegg pathways	Pyrimidine metabolism	12	0.7983
+Kegg pathways	Histidine metabolism	16	0.7867
+Kegg pathways	Biosynthesis of alkaloids derived from histidine and purine	11	0.4825
+Kegg pathways	Arginine and proline metabolism	18	0.749
+Kegg pathways	Protein digestion and absorption	26	0.1872
+Kegg pathways	Biosynthesis of alkaloids derived from ornithine_lysine and nicotinic acid	17	0.7049
+Kegg pathways	beta-Alanine metabolism	11	0.0865
+Kegg pathways	Glyoxylate and dicarboxylate metabolism	11	0.6262
+Kegg pathways	Carbon metabolism	15	0.4735
+Kegg pathways	ABC transporters	35	0.0288
+Kegg pathways	Biosynthesis of plant secondary metabolites	34	0.294
+Kegg pathways	Biosynthesis of various secondary metabolites - part 3	12	0.0838
+Kegg pathways	Glycine_serine and threonine metabolism	14	0.034
+Kegg pathways	Central carbon metabolism in cancer	25	0.1184
+Kegg pathways	Mineral absorption	14	0.0288
+Kegg pathways	2-Oxocarboxylic acid metabolism	19	0.0332
+Kegg pathways	Biosynthesis of alkaloids derived from shikimate pathway	11	0.9556
+Kegg pathways	Aminoacyl-tRNA biosynthesis	20	0.0406
+Kegg pathways	Purine metabolism	11	0.9149
+Kegg pathways	Nicotinate and nicotinamide metabolism	14	0.1526
+Kegg pathways	Arginine biosynthesis	10	0.0551
+Chemical family	Fatty Acyls	36	0.6672
+Chemical family	Glycerophospholipids	11	0.4447
+Chemical family	Carboxylic acids and derivatives	114	0.2844
+Chemical family	Organooxygen compounds	40	0.3656
+Chemical family	Organonitrogen compounds	15	0.4097
+Chemical family	Pyridines and derivatives	10	0.2956
+Chemical family	Hydroxy acids and derivatives	12	0.4467
