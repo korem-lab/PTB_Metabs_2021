@@ -220,7 +220,7 @@ def micro_shap(res_1, res_2, otu):
     x_train = x_train_AA.append(x_train_non_AA, sort=False)
 
     af2 = af.copy()
-    if 'alpha' in af2.index:
+    if 'alpha' in af2.columns:
         temp = af['alpha']
         af = af.drop('alpha', axis=1)
 
@@ -229,7 +229,7 @@ def micro_shap(res_1, res_2, otu):
                    for hot in ('Species', 'Genus', 'Family', 'Order', 'Class', 'Phylum') \
                    if pd.notnull(otu.loc[r, hot])] + ['Unknown'])[0]))
 
-    if 'alpha' in af2.index:
+    if 'alpha' in af2.columns:
         af['alpha'] = temp
 
     x_train.columns = af.columns
