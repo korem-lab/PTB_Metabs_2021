@@ -89,8 +89,10 @@ def perform_std(x_train, x_test, std_method, robust_quantile=0.05):#, robust, ro
         #pds std is default to skip nan
         x_train = (x_train-x_train.median()) / (x_train[(x_train >= x_train.quantile(robust_quantile)) &\
                   (x_train <= x_train.quantile(1 - robust_quantile))]).std()
-        x_test = (x_test-x_old_train.median()) / (x_test[(x_test >= x_old_train.quantile(robust_quantile)) &\
-                  (x_test <= x_old_train.quantile(1 - robust_quantile))]).std()
+        # x_test = (x_test-x_old_train.median()) / (x_test[(x_test >= x_old_train.quantile(robust_quantile)) &\
+        #           (x_test <= x_old_train.quantile(1 - robust_quantile))]).std()
+        x_test = (x_test-x_old_train.median()) / (x_old_train[(x_old_train >= x_old_train.quantile(robust_quantile)) &\
+                  (x_old_train <= x_old_train.quantile(1 - robust_quantile))]).std()
     else:
         raise NotImplementedError("the standardization method passed is not implemented")
 

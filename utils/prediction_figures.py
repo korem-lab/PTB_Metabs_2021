@@ -1,5 +1,4 @@
 import shap
-import pickle
 import statistics
 import numpy as np
 import pandas as pd
@@ -8,23 +7,25 @@ from numpy import interp
 from sklearn import metrics
 from scipy.stats import norm
 import matplotlib.pyplot as plt
-from pandas import Series, DataFrame, concat, to_pickle
-from sklearn.metrics import auc, roc_auc_score, average_precision_score, roc_curve, mean_squared_error
-from sklearn.metrics import average_precision_score, precision_recall_curve, r2_score
+from sklearn.metrics import roc_auc_score, roc_curve, average_precision_score, precision_recall_curve
 
 
-def main_auroc(test_list_all_37, pred_list_all, auroc_list_all_37, combination):
+def main_auroc(test_list_all_37, pred_list_all, auroc_list_all_37, combination, age_bmi=True):
     tprs = []
     base_fpr = np.linspace(0, 1, 101)
     plt.figure(figsize=(2.7,2.7))
 
     # show or exclude combination prediction
-    if not combination:
-        color_set = ['tab:orange','tab:green','tab:purple']
-        label_set = ['Clinical', 'Microbiome', 'Metabolomics']
+    if age_bmi == True:
+        if not combination:
+            color_set = ['tab:orange','tab:green','tab:purple']
+            label_set = ['Clinical', 'Microbiome', 'Metabolomics']
+        else:
+            color_set = ['tab:purple', 'tab:red']
+            label_set = ['Metabolomics', 'Combination']
     else:
-        color_set = ['tab:purple', 'tab:red']
-        label_set = ['Metabolomics', 'Combination']
+        color_set = ['tab:green','tab:purple']
+        label_set = ['Microbiome', 'Metabolomics']
 
     count = 0
     for dataset in range(len(color_set)):
@@ -57,10 +58,10 @@ def main_auroc(test_list_all_37, pred_list_all, auroc_list_all_37, combination):
     if not combination:
         plt.savefig('figurePanels/4A.pdf', dpi=500)
     else:
-        plt.savefig('figurePanels/S7C.pdf', dpi=500)
+        plt.savefig('figurePanels/ext_data_8C.pdf', dpi=500)
 
 
-def main_auprc(test_list_all_37, pred_list_all, auprc_list_all, combination):
+def main_auprc(test_list_all_37, pred_list_all, auprc_list_all, combination, age_bmi=True):
     fprs = []
     base_tpr = np.linspace(0, 1, 101)
     plt.figure(figsize=(2.7,2.7))
@@ -68,12 +69,16 @@ def main_auprc(test_list_all_37, pred_list_all, auprc_list_all, combination):
     plt.plot([0.34, 0.34], 'r--', lw=2, linestyle='--', label = 'Class balance (ratio = 0.34)')
 
     # show or exclude combination prediction
-    if not combination:
-        color_set = ['tab:orange','tab:green','tab:purple']
-        label_set = ['Clinical', 'Microbiome', 'Metabolomics']
+    if age_bmi == True:
+        if not combination:
+            color_set = ['tab:orange','tab:green','tab:purple']
+            label_set = ['Clinical', 'Microbiome', 'Metabolomics']
+        else:
+            color_set = ['tab:purple', 'tab:red']
+            label_set = ['Metabolomics', 'Combination']
     else:
-        color_set = ['tab:purple', 'tab:red']
-        label_set = ['Metabolomics', 'Combination']
+        color_set = ['tab:green','tab:purple']
+        label_set = ['Microbiome', 'Metabolomics']
 
     count = 0
     for dataset in range(len(color_set)):
@@ -105,7 +110,7 @@ def main_auprc(test_list_all_37, pred_list_all, auprc_list_all, combination):
     if not combination:
         plt.savefig('figurePanels/4B.pdf', dpi=500)
     else:
-        plt.savefig('figurePanels/S7D.pdf', dpi=500)
+        plt.savefig('figurePanels/ext_data_8D.pdf', dpi=500)
 
 
 def gw_thresh(test_list_all_AA, pred_list_all_AA, auroc_list_all_AA, microbiome):
@@ -155,9 +160,9 @@ def gw_thresh(test_list_all_AA, pred_list_all_AA, auroc_list_all_AA, microbiome)
     plt.ylim([-0.01, 1.01])
     plt.legend(loc='lower right', fontsize=5)
     if microbiome:
-        plt.savefig('figurePanels/S7F.pdf', dpi=500)
+        plt.savefig('figurePanels/ext_data_8G.pdf', dpi=500)
     else:
-        plt.savefig('figurePanels/S7G.pdf', dpi=500)
+        plt.savefig('figurePanels/ext_data_8F.pdf', dpi=500)
 
 
 def external_auroc(t1, p1, t2, p2):
@@ -191,7 +196,7 @@ def external_auprc(t1, p1, t2, p2):
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
     plt.legend(loc="lower right", fontsize=5, handlelength=4.1)
-    plt.savefig('figurePanels/S7H.pdf', dpi=500)
+    plt.savefig('figurePanels/ext_data_8H.pdf', dpi=500)
 
     fpr_2, tpr_2, thresholds_2 = precision_recall_curve(t2, p2)
     auc_2 = average_precision_score(t2, p2)
@@ -203,7 +208,7 @@ def external_auprc(t1, p1, t2, p2):
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
     plt.legend(loc="lower right", fontsize=5, handlelength=4.1)
-    plt.savefig('figurePanels/S7I.pdf', dpi=500)
+    plt.savefig('figurePanels/ext_data_8I.pdf', dpi=500)
 
 
 def micro_shap(res_1, res_2, otu):
@@ -214,10 +219,19 @@ def micro_shap(res_1, res_2, otu):
     af = af_AA.append(af_non_AA , sort=False).fillna(0)
     x_train = x_train_AA.append(x_train_non_AA, sort=False)
 
+    af2 = af.copy()
+    if 'alpha' in af2.index:
+        temp = af['alpha']
+        af = af.drop('alpha', axis=1)
+
     af = af.rename(columns = lambda r: '%s (%s)' % (r, (['%s: %s' % \
                   (hot[0], otu.loc[r, hot].replace('_',' ').replace('\"', '').replace('\\', '')) \
                    for hot in ('Species', 'Genus', 'Family', 'Order', 'Class', 'Phylum') \
                    if pd.notnull(otu.loc[r, hot])] + ['Unknown'])[0]))
+
+    if 'alpha' in af2.index:
+        af['alpha'] = temp
+
     x_train.columns = af.columns
 
     plt.figure()
@@ -230,7 +244,16 @@ def micro_shap(res_1, res_2, otu):
 
     plt.gcf()
     af.to_csv("shap_tables/shap_table_microbiome.csv")
-    plt.savefig('figurePanels/S7J.pdf', dpi = 500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+    plt.savefig('figurePanels/ext_data_8J_yticks.pdf', dpi = 500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+
+    plt.yticks([], [])
+    plt.xlabel("")
+    fig, ax = plt.gcf(), plt.gca()
+    ax.set_xticks([-2, -1, 0, 1])
+    cax = fig.axes[-1]
+    cax.tick_params(labeltop="", labelbottom="", labelsize=0, tick1On=False)
+
+    plt.savefig('figurePanels/ext_data_8J.pdf', dpi=500, figsize=(2.273, 2.2322), bbox_inches='tight')
 
 
 def metab_shap(res_1, res_2, id):
@@ -257,7 +280,16 @@ def metab_shap(res_1, res_2, id):
 
     plt.gcf()
     af.to_csv("shap_tables/shap_table_metabolomics.csv")
-    plt.savefig('figurePanels/4D.pdf', dpi =500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+    plt.savefig('figurePanels/4D_yticks.pdf', dpi =500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+
+    plt.yticks([],[])
+    plt.xlabel("")
+    fig, ax = plt.gcf(), plt.gca()
+    ax.set_xticks([-2, -1, 0, 1])
+    cax = fig.axes[-1]
+    cax.tick_params(labeltop="", labelbottom="", labelsize=0, tick1On=False)
+
+    plt.savefig('figurePanels/4D.pdf', dpi=500, figsize=(2.273, 2.2322), bbox_inches='tight')
 
 
 def combo_shap(res_1, res_2, id):
@@ -282,7 +314,16 @@ def combo_shap(res_1, res_2, id):
 
     plt.gcf()
     af.to_csv("shap_tables/shap_table_combination.csv")
-    plt.savefig('figurePanels/S7E.pdf', dpi =500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+    plt.savefig('figurePanels/ext_data_8E_yticks.pdf', dpi =500, figsize=(2.273,2.2322), bbox_inches = 'tight')
+
+    plt.yticks([], [])
+    plt.xlabel("")
+    fig, ax = plt.gcf(), plt.gca()
+    ax.set_xticks([-2, -1, 0, 1])
+    cax = fig.axes[-1]
+    cax.tick_params(labeltop="", labelbottom="", labelsize=0, tick1On=False)
+
+    plt.savefig('figurePanels/ext_data_8E.pdf', dpi=500, figsize=(2.273, 2.2322), bbox_inches='tight')
 
 
 def SV_LR_comparison(y_test_all_cat, y_pred_all_cat, auROC_all_cat):
@@ -290,11 +331,11 @@ def SV_LR_comparison(y_test_all_cat, y_pred_all_cat, auROC_all_cat):
     base_fpr = np.linspace(0, 1, 101)
     plt.figure(figsize=(2.7,2.7))
 
-    color_set = ['tab:cyan', 'tab:pink','tab:gray']
-    label_set = ['LightGBM', 'Support Vector Regression', 'Logistic Regression']
+    color_set = ['tab:cyan', 'tab:pink', 'tab:gray', 'xkcd:light lavender']
+    label_set = ['LightGBM', 'Support Vector Classification', 'Logistic Regression', 'Elastic Net']
 
     count = 0
-    for dataset in range(3):
+    for dataset in range(4):
         for i in range(5):
             fpr, tpr, _ = roc_curve(y_test_all_cat[dataset][i], y_pred_all_cat[dataset][i], drop_intermediate=False)
             plt.plot(fpr, tpr, 'b', alpha=0.1, color=color_set[dataset])
@@ -320,7 +361,7 @@ def SV_LR_comparison(y_test_all_cat, y_pred_all_cat, auROC_all_cat):
     plt.xlim([-0.01, 1.01])
     plt.ylim([-0.01, 1.01])
     plt.legend(loc='lower right', fontsize=5)
-    plt.savefig('figurePanels/S7A.pdf', dpi=500)
+    plt.savefig('figurePanels/ext_data_8A.pdf', dpi=500)
 
 
 def race_strat_compare_to_non_strat(y_test_all_cat, y_pred_all_cat, auROC_all_cat, y_test_all, y_pred_all, auROC_all):
@@ -415,7 +456,10 @@ def model_performance_by_race(y_test_r, y_pred_r, auROC_r, y_test_nr, y_pred_nr,
     plt.xlim([-0.01, 1.01])
     plt.ylim([-0.01, 1.01])
     plt.legend(loc='lower right', fontsize=5)
-    plt.savefig('figurePanels/S7B.pdf', dpi=500)
+    plt.savefig('figurePanels/ext_data_8B_with_legend.pdf', dpi=500)
+
+    plt.gca().get_legend().remove()
+    plt.savefig('figurePanels/ext_data_8B.pdf', dpi=500)
 
 
 def batch_auroc(rs_acc, batch_1, batch_2, batch_1_val, batch_2_val):
@@ -424,6 +468,13 @@ def batch_auroc(rs_acc, batch_1, batch_2, batch_1_val, batch_2_val):
 
     # Plot the histogram.
     plt.hist(rs_acc, bins=25, density=True, alpha=0.6, rwidth=0.85, color='tab:gray')
+
+    ## print the p values
+    print(rs_acc)
+    print(batch_1_val)
+    print(batch_2_val)
+    print(batch_1)
+    print(batch_2)
 
     # Plot the kde.
     kde = stats.gaussian_kde(rs_acc)
@@ -437,4 +488,27 @@ def batch_auroc(rs_acc, batch_1, batch_2, batch_1_val, batch_2_val):
 
     plt.legend(loc='lower right', fontsize=5)
     plt.bbox_inches='tight'
-    plt.savefig('figurePanels/S9E.pdf', dpi=500)
+    plt.savefig('figurePanels/ext_data_2E_with_legend.pdf', dpi=500)
+
+    plt.gca().get_legend().remove()
+    plt.savefig('figurePanels/ext_data_2E.pdf', dpi=500)
+
+
+def compare_aucs(au1, au2):
+    """
+    au1- list of aucs
+    au2 - other list of aucs
+    """
+    au1 = np.array(au1)
+    au2 = np.array(au2)
+
+    m1, m2 = au1.mean(), au2.mean()
+    r = stats.pearsonr(au1, au2)[0]
+    print(m1, m2, r)
+    s1, s2 = np.std(au1), np.std(au2)
+
+    z = (m1 - m2) / np.sqrt(np.power(s1, 2) + np.power(s2, 2) - r * s1 * s2)
+    p = 2*stats.norm.sf(abs(z))
+    print("p-value: " + str(p))
+    print("------------------")
+    return (p)

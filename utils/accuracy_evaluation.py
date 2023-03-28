@@ -7,8 +7,14 @@ def eval_nest(res):
     test_28 = [np.concatenate([res[o_s][nest][0][0].y_test<28 for nest in range(len(res[o_s]))]) for o_s in range(len(res))]
     test_32 = [np.concatenate([res[o_s][nest][0][0].y_test<32 for nest in range(len(res[o_s]))]) for o_s in range(len(res))]
     test_37 = [np.concatenate([res[o_s][nest][0][0].y_test<37 for nest in range(len(res[o_s]))]) for o_s in range(len(res))]
+    # print(test_37)
+    # print([[res[o_s][nest][0][0].y_test for nest in range(len(res[o_s]))] for o_s in range(len(res))])
+    # print(res[0][0][0][0].y_test < 37)
+    test_37_subjects_labels = [np.concatenate([(res[o_s][nest][0][0].y_test<37).index for nest in range(len(res[o_s]))]) for o_s in range(len(res))]
+    # print(test_37_subjects_labels)
     pred = [np.concatenate([np.nan_to_num(-stats.zscore(res[o_s][nest][0][0].y_pred_test), nan=1)\
                                                     for nest in range(len(res[o_s]))]) for o_s in range(len(res))]
+
     return test_28, test_32, test_37, pred
 
 def eval_nest_rs(res):
@@ -20,6 +26,17 @@ def eval_nest_rs(res):
                list(res[1][j][i][0][0].y_test < 37)]) for i in range(len(res[0][j]))]) for j in range(len(res[0]))]
     pred = [np.concatenate([np.concatenate([list(np.nan_to_num(-stats.zscore(res[0][j][i][0][0].y_pred_test), nan=1)),\
             list(np.nan_to_num(-stats.zscore(res[1][j][i][0][0].y_pred_test), nan=1))]) for i in range(len(res[0][j]))]) for j in range(len(res[0]))]
+    # print(pred)
+    # print(len(pred))
+    # print(pred[0].shape)
+
+    test_37_subjects_labels = [np.concatenate([np.concatenate([list((res[0][j][i][0][0].y_test < 37).index),\
+               list((res[1][j][i][0][0].y_test < 37).index)]) for i in range(len(res[0][j]))]) for j in range(len(res[0]))]
+    # import pickle
+    # pickle.dump(test_37_subjects_labels, open('nested_pred_res/test_subject_labels.pkl', 'wb'))
+    # pickle.dump(test_37, open('nested_pred_res/y_test_37.pkl', 'wb'))
+    # pickle.dump(pred, open('nested_pred_res/predictions.pkl', 'wb'))
+
     return test_28, test_32, test_37, pred
 
 def eval_external(res, ptb = True):
@@ -30,18 +47,25 @@ def eval_external(res, ptb = True):
     pred = np.nan_to_num(-stats.zscore(res[0][0].y_pred_test), nan=1)
     return test, pred
 
-def eval_benchmark(res):
+def eval_benchmark(res, regressors):
     y_test_all, y_pred_all = [], []
     auROC_all = []
-    for n in res:
+    # print(len(res))
+    for n_i, n in enumerate(res):
+        # print(f"n_i is {n_i}")
 
         y_test_outer, y_pred_outer = [], []
         auROC_outer = []
         for i in range(len(n)):
             y_test, y_pred = [], []
             for j in range(len(n[i])):
-                y_test.append(list(n[i][j][0][0].y_test < 37))
-                y_pred.append(np.nan_to_num(-stats.zscore(n[i][j][0][0].y_pred_test), nan=1))
+
+                if regressors[n_i]:
+                    y_test.append(list(n[i][j][0][0].y_test < 37))
+                    y_pred.append(np.nan_to_num(-stats.zscore(n[i][j][0][0].y_pred_test), nan=1))
+                else:
+                    y_test.append(list(n[i][j][0][0].y_test))
+                    y_pred.append(np.nan_to_num(stats.zscore(n[i][j][0][0].y_pred_test[:, 1]), nan=1))
 
             y_test_outer.append(np.concatenate(y_test))
             y_pred_outer.append(np.concatenate(y_pred))
@@ -52,19 +76,26 @@ def eval_benchmark(res):
 
     return y_test_all, y_pred_all, auROC_all
 
-def eval_benchmark_cat(res_cat):
+def eval_benchmark_cat(res_cat, regressors):
     y_test_all_cat, y_pred_all_cat = [], []
     auROC_all_cat = []
-    for n in res_cat:
+
+    for n_i, n in enumerate(res_cat):
 
         y_test_outer, y_pred_outer = [], []
         auROC_outer = []
         for i in range(len(n[0])):
             y_test, y_pred = [], []
             for j in range(len(n[0][0])):
-                y_test.append(np.concatenate([list(n[0][i][j][0][0].y_test < 37), list(n[1][i][j][0][0].y_test < 37)]))
-                y_pred.append(np.concatenate([np.nan_to_num(-stats.zscore(n[0][i][j][0][0].y_pred_test), nan=1), \
-                                             np.nan_to_num(-stats.zscore(n[1][i][j][0][0].y_pred_test), nan=1)]))
+
+                if regressors[n_i]:
+                    y_test.append(np.concatenate([list(n[0][i][j][0][0].y_test < 37), list(n[1][i][j][0][0].y_test < 37)]))
+                    y_pred.append(np.concatenate([np.nan_to_num(-stats.zscore(n[0][i][j][0][0].y_pred_test), nan=1), \
+                                                 np.nan_to_num(-stats.zscore(n[1][i][j][0][0].y_pred_test), nan=1)]))
+                else:
+                    y_test.append(np.concatenate([list(n[0][i][j][0][0].y_test), list(n[1][i][j][0][0].y_test)]))
+                    y_pred.append(np.concatenate([np.nan_to_num(stats.zscore(n[0][i][j][0][0].y_pred_test[:, 1]), nan=1), \
+                                                 np.nan_to_num(stats.zscore(n[1][i][j][0][0].y_pred_test[:, 1]), nan=1)]))
 
             y_test_outer.append(np.concatenate(y_test))
             y_pred_outer.append(np.concatenate(y_pred))

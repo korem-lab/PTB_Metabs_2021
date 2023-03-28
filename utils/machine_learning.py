@@ -4,15 +4,16 @@ import shap
 import numpy as np
 import pandas as pd
 from lightgbm.sklearn import LGBMRegressor, LGBMClassifier
-from sklearn.svm import SVR
-from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression, ElasticNet
 from pandas import to_pickle, read_pickle, DataFrame, Series
 
 # machine learning model selection
 class Machine_Learning_Method:
     LIGHTGBM = 'LightGBM'
-    SVR = 'Support_Vector_Regression'
+    SVC = 'Support_Vector_Classification'
     LR = 'Logistic_Regression'
+    EN = 'Elastic_Net'
 
 class WorkerResults(object):
     def __init__(self, x_train=None, x_test=None, y_train=None, y_test=None,
@@ -39,31 +40,48 @@ def ml_pipe(classifier, ml_method, params, seed_param, fe_hyper_param_keys, x_tr
         """ TO DO: use only lightGBM param here"""
         model.set_params(**params, verbose=-1)
 
-    elif ml_method == Machine_Learning_Method.SVR:
-        model = SVR(kernel=params['kernel'],
+    elif ml_method == Machine_Learning_Method.SVC:
+        model = SVC(C=params['C'],
+                    kernel=params['kernel'],
+                    degree=params['degree'],
+                    coef0=params['coef0'],
                     gamma=params['gamma'],
-                    C=params['C'])
+                    class_weight=params['class_weight'],
+                    probability=True ## enable this by default
+                    )
+
 
     elif ml_method == Machine_Learning_Method.LR:
         model = LogisticRegression(penalty=params['penalty'],
                                    solver=params['solver'],
                                    C=params['C'])
 
+    elif ml_method == Machine_Learning_Method.EN:
+        model = ElasticNet(alpha=params['alpha'],
+                        l1_ratio=params['l1_ratio'],
+                        fit_intercept=params['fit_intercept'])
+
 
     model.fit(x_train, y_train.values.ravel())
-    if classifier:
-        y_pred_test = model.predict_proba(x_test)
+
+    if shap_importance == False:
+        if classifier:
+            y_pred_test = model.predict_proba(x_test)
+        else:
+            y_pred_test = model.predict(x_test)
+
+        result = WorkerResults(x_train = None,
+                               x_test = None,
+                               y_train = None,
+                               y_test = y_test,
+                               y_pred_test = y_pred_test)
     else:
-        y_pred_test = model.predict(x_test)
+        predictions = model.predict(x_train)
 
-    result = WorkerResults(x_train = None,
-                           x_test = None,
-                           y_train = None,
-                           y_test = y_test,
-                           y_pred_test = y_pred_test)
-
-    if shap_importance:
+        result = WorkerResults()
         result.shap_values_all = shap.TreeExplainer(model).shap_values(x_train)
         result.x_train = x_train
+        result.y_pred_test = predictions
+        result.y_test = y_train
 
     return result

@@ -159,29 +159,43 @@ def do_barplot(x, x_col, y_col, palt, ofn, h = 1, pw=.2, ax = None, hue_order=No
 
 def msea(permuted_ps, real_DA_res, metabolite_annotations):
 
+    ## remove internal commas from KEGG pathway names
+    metabolite_annotations['Kegg pathway classes'] = [x.replace(", ", '_') if x == x else np.nan for x in
+                                                      metabolite_annotations['Kegg pathway classes']]
+    metabolite_annotations['Kegg pathways'] = [x.replace(", ", '_') if x == x else np.nan for x in
+                                               metabolite_annotations['Kegg pathways']]
+
     res = []
 
     for set_type in metabolite_annotations.columns:
-        curr_sets = metabolite_annotations[set_type].dropna().unique()
-        curr_sets = [x.split(';') for x in curr_sets]
-        temp = []
-        for x in curr_sets:
-            for y in x:
-                temp.append(y)
-        curr_sets = set(temp)
+
+        curr_sets = list(metabolite_annotations[set_type].dropna().unique())
+
+        ## get all of the individual kegg labels
+        if set_type[0:4] == 'Kegg':
+            curr_sets = [x.split(',') for x in curr_sets]
+            temp = []
+            for x in curr_sets:
+                for y in x:
+                    temp.append(y)
+            curr_sets = set(temp)
+
+        temp = metabolite_annotations[[set_type]].dropna()
+        set_type_di = dict(zip(temp.index, temp[set_type]))
 
         for m_set in curr_sets:
 
-            compounds_in_set = metabolite_annotations[[set_type]].dropna()
-            compounds_in_set = compounds_in_set[compounds_in_set[set_type].str.contains(m_set)]
-            compounds_in_set = list(compounds_in_set.index)
+            ## identify the compounds in the set
+            compounds_in_set = []
+            for k, v in set_type_di.items():
+                if m_set in v:
+                    compounds_in_set.append(k)
 
             in_set = real_DA_res.loc[real_DA_res.index.isin(compounds_in_set), :]
             out_of_set = real_DA_res.loc[~real_DA_res.index.isin(compounds_in_set), :]
             x = in_set['p']
             y = out_of_set['p']
 
-            ### Maybe make this higher than 10 to increase our sensitivity by reducing the number of tests corrected for
             if len(x) >= 10:
                 metab_set_raw_p = mannwhitneyu(x, y, alternative='two-sided')[1]
                 shuffled_p_values = []
@@ -193,7 +207,8 @@ def msea(permuted_ps, real_DA_res, metabolite_annotations):
                     y_shuffled = out_of_set_shuffled[c].dropna()
                     shuffled_p_values.append(mannwhitneyu(x_shuffled, y_shuffled, alternative='two-sided')[1])
 
-                metab_set_p = max(len([x for x in shuffled_p_values if x < metab_set_raw_p]), 1) / len(shuffled_p_values)
+                metab_set_p = max(len([x for x in shuffled_p_values if x < metab_set_raw_p]), 1) / len(
+                    shuffled_p_values)
                 res.append([set_type, m_set, len(x), metab_set_p])
 
     res = pd.DataFrame(res)
@@ -216,12 +231,20 @@ def microbiome_umap():
         metric='braycurtis',
         random_state=47).fit_transform(ct1k_lra)
 
+    # md_black_white = md[md.race.isin([0,1])]
+    # ct1k_lra_black_white = ct1k_lra.loc[md_black_white.index]
+    # from scipy.spatial.distance import pdist, squareform
+    # from skbio.stats.distance import permanova, DistanceMatrix
+    # dm = DistanceMatrix(squareform(pdist(ct1k_lra_black_white, metric='braycurtis')))
+    # p_anova = permanova(dm, md_black_white['race'])
+    # print(p_anova)
+
     return u, md
 
 
 def metabolome_umap():
 
-    metabs = get_metabs(rzscore=True, min_impute=True)
+    metabs = get_metabs(rzscore=True, min_impute=True, named_only=False, drop_deprecated=True)
     md = get_md()
 
     u = umap.UMAP(

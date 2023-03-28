@@ -2,9 +2,7 @@ import pyreadr
 import numpy as np
 import pandas as pd
 from pandas import Series
-import sys
-from os.path import join, exists
-from pandas import read_pickle, read_excel
+import os
 
 from utils.definitions import elovitz_ct_path, supp_tables_path
 
@@ -76,8 +74,8 @@ def get_bl():
     return bl
 
 
-def get_metabs(rzscore=True, min_pres=5, min_impute=True, vol_norm=True, compids=False):
-
+def get_metabs(rzscore=True, min_pres=5, min_impute=True, vol_norm=True, compids=False,
+               named_only=True, drop_deprecated=False):
     def _fmin(d):
         return d.fillna(d.min())
 
@@ -87,6 +85,12 @@ def get_metabs(rzscore=True, min_pres=5, min_impute=True, vol_norm=True, compids
     ret = pd.read_excel(supp_tables_path, sheet_name='Table S1', index_col=0)
     v = 70 / ret['Volume extracted (ul)']
     ret = ret.drop(['Volume extracted (ul)', 'LC MS/MS Pos Early, Pos Late, Polar Batch', 'LC MS/MS Neg Batch'], axis=1)
+
+    # drop the two deprecated features and rename the one identified feature
+    if drop_deprecated:
+        if 'X - 25828' in ret.columns and 'X - 24697' in ret.columns:
+            ret = ret.drop(['X - 25828', 'X - 24697'], axis=1)
+    ret = ret.rename(columns={'X - 12849':'menthol glucuronide'})
 
     if vol_norm:
         ret = ret.mul(v, axis=0)
@@ -98,12 +102,16 @@ def get_metabs(rzscore=True, min_pres=5, min_impute=True, vol_norm=True, compids
         ret = _fmin(ret)
 
     if min_pres > 0:
-        ret = ret.loc[:, (ret > ret.min()).sum() > min_pres]
+        # ret = ret.loc[:, (ret > ret.min()).sum() > min_pres] ## old method
+        ret = ret.loc[:, (~ret.isna()).sum() >= min_pres]
 
     if compids:
         m_ids = pd.read_excel("data/Supplementary Tables.xlsx", sheet_name='Table S4')
         di = dict(zip(m_ids['Metabolite'], m_ids['COMP ID']))
         ret.columns = [str(di[x]) for x in ret.columns]
+
+    if named_only:
+        ret = ret[[x for x in ret.columns if x[0:3] != 'X -']]
 
     return ret
 
@@ -118,9 +126,10 @@ def get_md(metabs=True):
 
     md = pyreadr.read_r(elovitz_ct_path)['mt']
 
-    age_bmi = pd.read_csv("data/age_bmi.csv", index_col=0)
-    md = md.join(age_bmi)
-    md['v2_bmi'] = pd.to_numeric(md['v2_bmi'].replace('.', np.nan))
+    if os.path.exists("data/age_bmi.csv"):
+        age_bmi = pd.read_csv("data/age_bmi.csv", index_col=0)
+        md = md.join(age_bmi)
+        md['v2_bmi'] = pd.to_numeric(md['v2_bmi'].replace('.', np.nan))
 
     ## restrict to V2 and non-mPTB subjects
     md = md[md.visit == 'V2']
@@ -189,14 +198,6 @@ def get_metab_platforms():
     ret = pd.read_excel("data/Supplementary Tables.xlsx", sheet_name = 'Table S4', index_col=0)
     ret = ret[['Extraction Platform']]
     return ret
-
-
-def get_mass_and_RI():
-    ret = pd.read_excel(f"./data/Metabolon data.xlsx", sheet_name='OrigScale', skiprows=4)
-    ret = ret[['BIOCHEMICAL', 'MASS', 'RI']]
-    ret = ret.set_index('BIOCHEMICAL')
-    return ret
-
 
 def get_unknowns_mass_RI():
     ret = pd.read_excel(supp_tables_path, sheet_name='Table S13')
@@ -318,4 +319,3 @@ def get_ghartey_2014():
     v2_white_2014.columns = [str(c) for c in v2_white_2014.columns]
 
     return v2_white_2014, v2_white_2014_metadata
-

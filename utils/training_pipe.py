@@ -21,7 +21,7 @@ def pipe(X, md, params_list, cv, classifier, ml_method, study_design, train_samp
 
     # set target for y
     if classifier:
-        y = md.loc[:, "ptb"]
+        y = md.loc[:, "sPTB"]
     else:
         y = md.loc[:, "gw"]
 
