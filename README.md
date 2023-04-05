@@ -36,3 +36,5 @@ To install required dependencies run the following command:
 To reproduce the analyses and panels run the following commands:
 "python generate_figures.py"
 "python generate_prediction_figures.py"
+
+Note - in order to avoid having to regenerate the null distributions of p-values required for the msea (extended data figure 5d) you will need to unzip the zipped p-value files contained within data/msea 
