@@ -1,5 +1,5 @@
 # PTB_Metabs_2021
-Analyses pertaining to the manuscruipt Preterm birth is associated with xenobiotics 1 and predicted by the vaginal metabolome
+Analyses pertaining to the manuscruipt Preterm birth is associated with xenobiotics and predicted by the vaginal metabolome
 
 William F. Kindschuh<sup>1*</sup>, Federico Baldini<sup>1*</sup>, Martin C. Liu<sup>1,2*</sup>, Jingqiu Liao<sup>1</sup>, Yoli Meydan<sup>1</sup>, 
 Harry H.Lee<sup>1</sup>, Almut Heinken<sup>3</sup>, Ines Thiele<sup>3,4,5,6</sup>, Maayan Levy<sup>7</sup>&, Tal Korem<sup>1,8,9</sup>&
